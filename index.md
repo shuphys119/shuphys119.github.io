@@ -1,23 +1,26 @@
   
-
-<!-- <style>
-/* このページ専用のスタイル */
-body {
-  background-color: #000;   /* 背景を黒に */
-  color: #fff;              /* 文字を白にしないと読めなくなるので注意 */
-}
-</style> -->
-
 In my papers, I use **"Ohyama"** instead of "Oyama".
 
 ## Main Interests
 
-[hoge](pages/hoge.md)
+A. [Many-body systems](pages/Many-body_systems.md)  
+B. [Tensor network representations](pages/Tensor_network_representations.md)
 
-A. Many-body systems  
-B. Tensor network representations
+<!-- <img src="images/TN_representation_1.pdf" alt="tensor network" height="100"> -->
 
+<!-- <embed
+  src="images/TN_representation_1.pdf"
+  type="application/pdf"
+  width="100%"
+  height="600px"
+/> -->
 
+<iframe
+  src="images/TN_representation_1.pdf"
+  width="100%"
+  height="600px"
+  style="border:1px solid #ccc;"
+>
 
 ## Links
 
@@ -27,5 +30,6 @@ B. Tensor network representations
 
 [Github](https://github.com/shuphys119?tab=repositories)
 
-## section
+## Contact
+Email: shuhei.oyama@@univie.ac.at
 
