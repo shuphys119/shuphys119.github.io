@@ -12,15 +12,11 @@ In my papers, I use **"Ohyama"** instead of "Oyama".
 
 ## Main Interests
 
-<a href="pages/hoge.md">hoge</a>
-
 [hoge](pages/hoge.md)
 
-<!-- A. Families of many-body systems
-
+A. Many-body systems  
 B. Tensor network representations
-B.1. geometric aspects
-B.2. higher categorical aspects -->
+
 
 
 ## Links
@@ -28,6 +24,8 @@ B.2. higher categorical aspects -->
 [google scholar](https://scholar.google.co.jp/citations?user=Z-Ex2ZMAAAAJ&hl=en)  
 
 [Inspire](https://inspirehep.net/authors/2090932)
+
+[Github](https://github.com/shuphys119?tab=repositories)
 
 ## section
 
