@@ -6,7 +6,7 @@ In my papers, I use **"Ohyama"** instead of "Oyama".
 A. [Many-body systems](pages/Many-body_systems.md)  
 B. [Tensor network representations](pages/Tensor_network_representations.md)
 
-<!-- <img src="images/TN_representation_1.pdf" alt="tensor network" height="100"> -->
+<img src="images/TN_representation_1.png" alt="tensor network" height="100">
 
 <!-- <embed
   src="images/TN_representation_1.pdf"
