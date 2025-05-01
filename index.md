@@ -1,12 +1,12 @@
   
 
-<style>
+<!-- <style>
 /* このページ専用のスタイル */
 body {
   background-color: #000;   /* 背景を黒に */
   color: #fff;              /* 文字を白にしないと読めなくなるので注意 */
 }
-</style>
+</style> -->
 
 
 In my papers, I use **"Ohyama"** instead of "Oyama."
