@@ -1,21 +1,31 @@
-# ウェブサイトのタイトル
+  
 
-これはメインの見出しです。
+<style>
+/* このページ専用のスタイル */
+body {
+  background-color: #000;   /* 背景を黒に */
+  color: #fff;              /* 文字を白にしないと読めなくなるので注意 */
+}
+</style>
 
-## セクションのタイトル
 
-このセクションでは、いくつかの重要な情報について説明します。
+In my papers, I use **"Ohyama"** instead of "Oyama."
 
-### 小見出し
+## Main Interests
 
-ここに具体的な内容を書きます。テキストを**強調**するには、単語の周りにアスタリスクを2つ使用します。*イタリック*にするには、アスタリスクを1つ使用します。
+<!-- A. Families of many-body systems
 
-#### リストの作成
+B. Tensor network representations
+B.1. geometric aspects
+B.2. higher categorical aspects
 
-- リストアイテム1
-- リストアイテム2
-  - サブアイテムA
-  - サブアイテムB
-- リストアイテム3
 
-## section
+
+## Links
+
+## Papers
+[google scholar](https://scholar.google.co.jp/citations?user=Z-Ex2ZMAAAAJ&hl=en)  
+
+[Inspire](https://inspirehep.net/authors/2090932)
+
+## section -->
