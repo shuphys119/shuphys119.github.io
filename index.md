@@ -14,13 +14,14 @@ In my papers, I use **"Ohyama"** instead of "Oyama".
 
 <a href="pages/hoge.md">hoge</a>
 
+[hoge](pages/hoge.md)
+
 <!-- A. Families of many-body systems
 
 B. Tensor network representations
 B.1. geometric aspects
 B.2. higher categorical aspects -->
 
-hogehoge  
 
 ## Links
 
