@@ -1,1 +1,6 @@
-<img src="images/TN_representation_1.pdf" alt="tensor network" height="100">
+<iframe
+  src="images/TN_representation_1.pdf"
+  width="100%"
+  height="600px"
+  style="border:1px solid #ccc;"
+>
