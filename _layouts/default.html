@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title | escape }} - {{ site.title | escape }}</title>
+    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+    {% if site.favicon %}
+      <link rel="icon" href="{{ site.favicon | relative_url }}">
+    {% endif %}
+    {%- feed_meta -%}
+    {%- seo -%}
+  </head>
+
+  <body>
+    {% include header.html %}  <!-- 自作ロゴヘッダーを読み込む -->
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>
