@@ -18,5 +18,3 @@ B. [Tensor network representations](pages/Tensor_network_representations.md)
 
 ## Contact
 Email: shuhei.oyama@@univie.ac.at
-
-<img src="assets/images/logo.png" alt="TN_representation" height="300">
