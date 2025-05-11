@@ -6,7 +6,7 @@ In my papers, I use **"Ohyama"** instead of "Oyama".
 A. [Many-body systems](pages/Many-body_systems.md)  
 B. [Tensor network representations](pages/Tensor_network_representations.md)
 
-[hoge](pages/hoge.md)
+[My Page](pages/My_Page.md)
 
 ## Links
 
