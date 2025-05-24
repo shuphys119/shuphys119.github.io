@@ -1,2 +1,2 @@
 
-[QCA](pages/Topics/pages/QCA.md)
+[QCA](pages/QCA.md)
