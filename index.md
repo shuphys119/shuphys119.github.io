@@ -9,9 +9,9 @@ In my papers, I use **"Ohyama"** instead of "Oyama".
 
 ## Achievements
 
-[Publications](pages/publications-new.md)
+[Publications](pages/publications/new.md)
 
-[Presentations](pages/presentations.md)
+[Presentations](pages/presentations/talks.md)
 
 ## Links
 

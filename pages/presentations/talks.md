@@ -3,7 +3,8 @@ title: "Presentations"
 layout: page
 ---
 
-# Presentations
+# Presentations 
+Talks / [Posters](posters.md) / [Other presentations](posters.md)
 
 This page summarizes my seminars, invited talks, and conference presentations.
 
