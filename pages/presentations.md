@@ -1,9 +1,9 @@
 ---
-title: "Talks"
+title: "Presentations"
 layout: page
 ---
 
-# Talks
+# Presentations
 
 This page summarizes my seminars, invited talks, and conference presentations.
 
