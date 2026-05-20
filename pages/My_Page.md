@@ -4,6 +4,8 @@
 
 ## 📩 [Univie Mail](https://email.forms.univie.ac.at/webmail-abrufen/index.html?lang=en)
 
+## ⚡️ [RIKEN Portal](https://portal.riken.jp)
+
 ## ⚡️ [Univie Portal](https://hrfi.univie.ac.at/)
 
 ## 🐈 [GitHub](https://github.com/shuphys119?tab=repositories)
