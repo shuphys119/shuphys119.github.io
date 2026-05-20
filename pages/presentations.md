@@ -29,7 +29,7 @@ This is a five-day workshop on topological families of quantum states.
 **Date:** December 2, 2025  
 **Type:** Invited talk  
 **Time:** 16:00–17:00  
-**Related topics:** Generalized cluster states, strip 2-algebras, topological phases of matter  
+**Related papers:** [arXiv:2601.08615](https://arxiv.org/abs/2601.08615), [arXiv:2601.08616](https://arxiv.org/abs/2601.08616)    
 **Video:** [YouTube](https://www.youtube.com/watch?v=BFbBZc7g5yo) 
 
 This talk discussed generalized cluster states and strip 2-algebras in the context of theoretical studies of topological phases of matter.
@@ -44,10 +44,25 @@ This talk discussed generalized cluster states and strip 2-algebras in the conte
 **Date:** December 16, 2025  
 **Type:** Seminar  
 **Language:** Japanese  
-**Related topics:** Higher Berry phase, multi-wavefunction overlap, tensor networks, field theory  
+**Related papers:** [arXiv:2304.05356](https://arxiv.org/abs/2304.05356), [arXiv:2305.08109](https://arxiv.org/abs/2305.08109),[arXiv:2410.08284](https://arxiv.org/abs/2410.08284), [arXiv:2507.12525](https://arxiv.org/abs/2507.12525)  
 **Video:** YouTube [Part I](https://www.youtube.com/watch?v=IpLmytbN5Wo), [Part II](https://www.youtube.com/watch?v=Shc7o7SnR-k)
 
 This talk outlines recent progress in geometric topology for many-body systems, focusing on higher Berry phases and multi-wavefunction overlaps. It also discusses implementations using tensor networks and field theory.
+
+---
+
+#### On parameterized families of toric codes
+
+**Event:** Seminar  
+**Host institution:** RIKEN  
+**Location:** Room 331, RIKEN Research Main Building, Wako, Saitama, Japan    
+**Date:** December 16, 2025  
+**Type:** Seminar  
+**Language:** English  
+**Related paper:** [arXiv:2605.03891](https://arxiv.org/abs/2605.03891)    
+
+This seminar discussed parameterized families of toric code phases, focusing on higher-order anyon pumping.  
+
 
 ---
 
@@ -71,7 +86,7 @@ This talk discusses gerbe structures on boundary conformal manifolds using multi
 **Date:** July 31, 2025  
 **Type:** Invited talk  
 **Slides:** [PDF](https://indico.ihep.ac.cn/event/26207/contributions/196141/attachments/93390/122282/Shuhei-Ohyama.pdf)  
-**Related papers:** [arXiv:2507.12525](https://arxiv.org/abs/2507.12525), [arXiv:2304.05356](https://arxiv.org/abs/2304.05356), [arXiv:2408.15960](https://arxiv.org/abs/2408.15960)  
+**Related paper:** [arXiv:2507.12525](https://arxiv.org/abs/2507.12525)   
 **Video:** [bilibili](https://www.bilibili.com/video/BV18fbnzvEAG?vd_source=39c2a73d9cee1674cdb3cb2c2a2df7bc&fbclid=IwZXh0bgNhZW0CMTEAAR7PqC93fQ7saQmV_MBZgGBztHGND7gWsWOzQsinYxB0PP-fLvbQLYNFK-rpwA_aem_KXRXsAqNExjWDuhdAACX4Q&p=18&spm_id_from=333.788.videopod.episodes)  
 
 This presentation discusses higher structures on the boundary conformal field theory.
@@ -86,7 +101,7 @@ This presentation discusses higher structures on the boundary conformal field th
 **Date:** July 11, 2025  
 **Time:** 11:10–11:30  
 **Type:** Speed talk  
-**Related topics:** Topological phases, families of quantum many-body systems, homotopy theory, operator algebras  
+**Related paper:** [arXiv:2507.12525](https://arxiv.org/abs/2507.12525)   
 
 This speed talk discussed higher structures on boundary conformal manifolds.
 
@@ -125,9 +140,10 @@ This seminar presents higher structures in matrix product states, including high
 **Host institution:** Perimeter Institute  
 **Date:** April 25, 2023  
 **Type:** Seminar  
+**Related papers:** [arXiv:2303.04252](https://arxiv.org/abs/2303.04252), [arXiv:2304.05356](https://arxiv.org/abs/2304.05356), [arXiv:2305.08109](https://arxiv.org/abs/2305.08109)  
 **Video:** [PIRSA](https://doi.org/10.48660/23040155)  
 
-This talk explains how to extract higher Berry phases in one-dimensional systems using a higher inner product of three matrix product states. It discusses the construction of a topological invariant valued in the third cohomology group of the parameter space.
+This talk explains how to extract higher Berry phases in one-dimensional systems using a triple inner product of three matrix product states. It discusses the construction of a topological invariant valued in the third cohomology group of the parameter space.
 
 ---
 
