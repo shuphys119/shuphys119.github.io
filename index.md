@@ -1,10 +1,17 @@
   
 In my papers, I use **"Ohyama"** instead of "Oyama".
 
-## Main Interests
+<!-- ## Main interests
 
-A. [Many-body systems](pages/Many-body_systems.md)  
-B. [Tensor network representations](pages/Tensor_network_representations.md)
+[Tensor networks](pages/Tensor_network_representations.md)
+
+[Many-body quantum systems](pages/Many-body_systems.md) -->
+
+## Achievements
+
+[Publications](pages/publications-new.md)
+
+[Presentations](pages/presentations.md)
 
 ## Links
 
@@ -15,4 +22,4 @@ B. [Tensor network representations](pages/Tensor_network_representations.md)
 [Github](https://github.com/shuphys119?tab=repositories)
 
 ## Contact
-Email: shuhei.oyama@@univie.ac.at
+Email: shuhei.ohyama@@riken.jp

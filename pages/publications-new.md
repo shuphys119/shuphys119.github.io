@@ -128,7 +128,7 @@ This paper develops higher structures associated with families of matrix product
 **Journal:** [Physical Review B **110**, 035114](https://doi.org/10.1103/PhysRevB.110.035114)  
 **Date:** March 2023  
 
-This paper constructs higher pumping models and studies discrete higher Berry phases using matrix product states and Deligne cohomology.
+This paper constructs higher pumping models and studies discrete higher Berry phases using matrix product states and the smooth Deligne cohomology.
 
 ---
 
