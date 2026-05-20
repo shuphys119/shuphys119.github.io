@@ -7,7 +7,7 @@ layout: page
 
 This page summarizes my research papers listed on [INSPIRE author profile](https://inspirehep.net/authors/2090932).
 
-Sort by arXiv date: **Newest first** | [Oldest first](pages/publications-old.md)
+Sort by arXiv date: **Newest first** | [Oldest first](publications-old.md)
 
 ---
 
