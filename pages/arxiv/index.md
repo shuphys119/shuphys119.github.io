@@ -24,6 +24,7 @@ permalink: /arxiv/
     {% for tag in all_tags %}
     <option value="{{ tag }}">{{ tag }}</option>
     {% endfor %}
+    <option value="selected">selected</option>
   </select>
 
   <label class="selected-filter">
@@ -57,7 +58,7 @@ permalink: /arxiv/
         class="paper-item"
         data-title="{{ paper.title | downcase | escape }}"
         data-authors="{{ paper.authors | downcase | escape }}"
-        data-tags="{{ paper.tags | join: ' ' | downcase | escape }}"
+        data-tags="{{ paper.tags | join: ' ' | downcase | escape }}{% if paper.selected %} selected{% endif %}"
         data-hook="{{ paper.hook | downcase | escape }}"
         data-selected="{% if paper.selected %}true{% else %}false{% endif %}"
       >
@@ -75,6 +76,9 @@ permalink: /arxiv/
           {% for tag in paper.tags %}
           <code>{{ tag }}</code>
           {% endfor %}
+          {% if paper.selected %}
+          <code class="selected-tag">selected</code>
+          {% endif %}
         </td>
         <td>{{ paper.hook }}</td>
       </tr>
@@ -89,7 +93,7 @@ permalink: /arxiv/
     class="paper-item paper-compact-item"
     data-title="{{ paper.title | downcase | escape }}"
     data-authors="{{ paper.authors | downcase | escape }}"
-    data-tags="{{ paper.tags | join: ' ' | downcase | escape }}"
+    data-tags="{{ paper.tags | join: ' ' | downcase | escape }}{% if paper.selected %} selected{% endif %}"
     data-hook="{{ paper.hook | downcase | escape }}"
     data-selected="{% if paper.selected %}true{% else %}false{% endif %}"
   >
@@ -107,6 +111,9 @@ permalink: /arxiv/
     {% for tag in paper.tags %}
     <code>{{ tag }}</code>
     {% endfor %}
+    {% if paper.selected %}
+    <code class="selected-tag">selected</code>
+    {% endif %}
     —
     <span>{{ paper.hook }}</span>
   </p>
@@ -120,7 +127,7 @@ permalink: /arxiv/
       class="paper-item paper-card"
       data-title="{{ paper.title | downcase | escape }}"
       data-authors="{{ paper.authors | downcase | escape }}"
-      data-tags="{{ paper.tags | join: ' ' | downcase | escape }}"
+      data-tags="{{ paper.tags | join: ' ' | downcase | escape }}{% if paper.selected %} selected{% endif %}"
       data-hook="{{ paper.hook | downcase | escape }}"
       data-selected="{% if paper.selected %}true{% else %}false{% endif %}"
     >
@@ -138,6 +145,9 @@ permalink: /arxiv/
         {% for tag in paper.tags %}
         <code>{{ tag }}</code>
         {% endfor %}
+        {% if paper.selected %}
+        <code class="selected-tag">selected</code>
+        {% endif %}
       </div>
       <p>{{ paper.hook }}</p>
     </article>
