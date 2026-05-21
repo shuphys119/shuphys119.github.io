@@ -1,0 +1,10 @@
+- date: 2026-06-03
+  title: "Entanglement dynamics in free fermion systems"
+  authors: "C. Author, D. Author"
+  tags:
+    - entanglement
+    - free fermion
+    - quantum many-body
+  url: "https://arxiv.org/abs/zzzz.zzzzz"
+  hook: "Potentially useful for comparing analytic free-fermion results with tensor-network numerics."
+  selected: false

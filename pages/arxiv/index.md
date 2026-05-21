@@ -20,8 +20,7 @@ permalink: /arxiv/
 
   <select id="paper-tag-select" aria-label="Filter by tag">
     <option value="all">all tags</option>
-    {% assign all_tags = site.data.papers | map: "tags" | join: "," | split: "," | uniq | sort %}
-    {% for tag in all_tags %}
+    {% for tag in site.data.arxiv_tags %}
       {% assign clean_tag = tag | strip %}
       {% unless clean_tag == "" %}
       <option value="{{ clean_tag }}">{{ clean_tag }}</option>
@@ -43,24 +42,28 @@ permalink: /arxiv/
 <div id="paper-count" class="paper-count"></div>
 
 <div id="compact-view" class="paper-view">
-  {% for paper in site.data.papers %}
-  <p
-    class="paper-item paper-compact-item"
-    data-title="{{ paper.title | downcase | escape }}"
-    data-authors="{{ paper.authors | downcase | escape }}"
-    data-tags="{{ paper.tags | join: ' ' | downcase | escape }}"
-    data-hook="{{ paper.hook | downcase | escape }}"
-    data-selected="{% if paper.selected == true %}true{% else %}false{% endif %}"
-  >
-    <span class="paper-date">{{ paper.date }}</span>
-    —
-    <a
-      href="{{ paper.url }}"
-      class="paper-title{% if paper.selected == true %} selected-paper-title{% endif %}"
-    >{{ paper.title }}</a>
-    —
-    <span class="paper-authors">{{ paper.authors }}</span>
-  </p>
+  {% assign months = site.data.arxiv | sort %}
+  {% for month_data in months reversed %}
+    {% assign papers = month_data[1] %}
+    {% for paper in papers reversed %}
+    <p
+      class="paper-item paper-compact-item"
+      data-title="{{ paper.title | downcase | escape }}"
+      data-authors="{{ paper.authors | downcase | escape }}"
+      data-tags="{{ paper.tags | join: ' ' | downcase | escape }}"
+      data-hook="{{ paper.hook | downcase | escape }}"
+      data-selected="{% if paper.selected == true %}true{% else %}false{% endif %}"
+    >
+      <span class="paper-date">{{ paper.date }}</span>
+      —
+      <a
+        href="{{ paper.url }}"
+        class="paper-title{% if paper.selected == true %} selected-paper-title{% endif %}"
+      >{{ paper.title }}</a>
+      —
+      <span class="paper-authors">{{ paper.authors }}</span>
+    </p>
+    {% endfor %}
   {% endfor %}
 </div>
 
@@ -76,33 +79,37 @@ permalink: /arxiv/
       </tr>
     </thead>
     <tbody>
-      {% for paper in site.data.papers %}
-      <tr
-        class="paper-item"
-        data-title="{{ paper.title | downcase | escape }}"
-        data-authors="{{ paper.authors | downcase | escape }}"
-        data-tags="{{ paper.tags | join: ' ' | downcase | escape }}"
-        data-hook="{{ paper.hook | downcase | escape }}"
-        data-selected="{% if paper.selected == true %}true{% else %}false{% endif %}"
-      >
-        <td>{{ paper.date }}</td>
-        <td>
-          <a
-            href="{{ paper.url }}"
-            class="paper-title{% if paper.selected == true %} selected-paper-title{% endif %}"
-          >{{ paper.title }}</a>
-        </td>
-        <td>{{ paper.authors }}</td>
-        <td>
-          {% for tag in paper.tags %}
-            {% assign clean_tag = tag | strip %}
-            {% unless clean_tag == "" %}
-            <code>{{ clean_tag }}</code>
-            {% endunless %}
-          {% endfor %}
-        </td>
-        <td>{{ paper.hook }}</td>
-      </tr>
+      {% assign months = site.data.arxiv | sort %}
+      {% for month_data in months reversed %}
+        {% assign papers = month_data[1] %}
+        {% for paper in papers reversed %}
+        <tr
+          class="paper-item"
+          data-title="{{ paper.title | downcase | escape }}"
+          data-authors="{{ paper.authors | downcase | escape }}"
+          data-tags="{{ paper.tags | join: ' ' | downcase | escape }}"
+          data-hook="{{ paper.hook | downcase | escape }}"
+          data-selected="{% if paper.selected == true %}true{% else %}false{% endif %}"
+        >
+          <td>{{ paper.date }}</td>
+          <td>
+            <a
+              href="{{ paper.url }}"
+              class="paper-title{% if paper.selected == true %} selected-paper-title{% endif %}"
+            >{{ paper.title }}</a>
+          </td>
+          <td>{{ paper.authors }}</td>
+          <td>
+            {% for tag in paper.tags %}
+              {% assign clean_tag = tag | strip %}
+              {% unless clean_tag == "" %}
+              <code>{{ clean_tag }}</code>
+              {% endunless %}
+            {% endfor %}
+          </td>
+          <td>{{ paper.hook }}</td>
+        </tr>
+        {% endfor %}
       {% endfor %}
     </tbody>
   </table>
@@ -110,4 +117,4 @@ permalink: /arxiv/
 
 </div>
 
-<script src="{{ '/pages/arxiv/papers.js?v=2' | relative_url }}"></script>
+<script src="{{ '/pages/arxiv/papers.js?v=3' | relative_url }}"></script>

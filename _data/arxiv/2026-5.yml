@@ -10,23 +10,12 @@
   hook: "Useful for thinking about entanglement diagnostics in many-body systems."
   selected: true
 
-- date: 2026-05-21
+- date: 2026-05-22
   title: "A new approach to holographic tensor networks"
-  authors: "D. Author, E. Author"
+  authors: "A. Author, B. Author"
   tags:
     - holography
     - tensor-network
   url: "https://arxiv.org/abs/yyyy.yyyyy"
   hook: "May clarify the geometric meaning of tensor-network constructions."
   selected: false
-
-- date: 2026-05-21
-  title: "A AAA"
-  authors: "F. Author, E. Author"
-  tags:
-    - holography
-    - tensor-network
-    - category theory
-  url: "https://arxiv.org/abs/yyyy.yyyyy"
-  hook: "May clarify the geometric meaning of tensor-network constructions."
-  selected: true
