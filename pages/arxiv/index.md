@@ -42,10 +42,9 @@ permalink: /arxiv/
 <div id="paper-count" class="paper-count"></div>
 
 <div id="compact-view" class="paper-view">
-  {% assign months = site.data.arxiv | sort %}
-  {% for month_data in months reversed %}
-    {% assign papers = month_data[1] %}
-    {% for paper in papers reversed %}
+  {% for month in site.data.arxiv_months %}
+    {% assign papers = site.data.arxiv[month] %}
+    {% for paper in papers %}
     <p
       class="paper-item paper-compact-item"
       data-title="{{ paper.title | downcase | escape }}"
@@ -79,10 +78,9 @@ permalink: /arxiv/
       </tr>
     </thead>
     <tbody>
-      {% assign months = site.data.arxiv | sort %}
-      {% for month_data in months reversed %}
-        {% assign papers = month_data[1] %}
-        {% for paper in papers reversed %}
+      {% for month in site.data.arxiv_months %}
+        {% assign papers = site.data.arxiv[month] %}
+        {% for paper in papers %}
         <tr
           class="paper-item"
           data-title="{{ paper.title | downcase | escape }}"
@@ -117,4 +115,4 @@ permalink: /arxiv/
 
 </div>
 
-<script src="{{ '/pages/arxiv/papers.js?v=3' | relative_url }}"></script>
+<script src="{{ '/pages/arxiv/papers.js?v=4' | relative_url }}"></script>
