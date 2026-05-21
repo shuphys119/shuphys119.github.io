@@ -6,7 +6,6 @@
     - tensor-network
     - CFT
     - category theory
-    - 
   url: "https://arxiv.org/abs/xxxx.xxxxx"
   hook: "Useful for thinking about entanglement diagnostics in many-body systems."
   selected: true
@@ -22,13 +21,12 @@
   selected: false
 
 - date: 2026-05-21
-  title: "Universal fusion category symmetries on tensor products of infinite-dimensional Hilbert spaces"
-  authors: "Ian Bunner, Corey Jones"
+  title: "A AAA"
+  authors: "F. Author, E. Author"
   tags:
-    - entanglement
+    - holography
     - tensor-network
-    - CFT
     - category theory
-  url: "https://arxiv.org/abs/xxxx.xxxxx"
-  hook: "Useful for thinking about entanglement diagnostics in many-body systems."
+  url: "https://arxiv.org/abs/yyyy.yyyyy"
+  hook: "May clarify the geometric meaning of tensor-network constructions."
   selected: true
