@@ -21,10 +21,10 @@ function matchesSearch(item, query) {
   if (!query) return true;
 
   const searchableText = [
-    item.dataset.title,
-    item.dataset.authors,
-    item.dataset.tags,
-    item.dataset.hook,
+    item.dataset.title || "",
+    item.dataset.authors || "",
+    item.dataset.tags || "",
+    item.dataset.hook || "",
   ].join(" ");
 
   return searchableText.includes(query);
@@ -33,7 +33,11 @@ function matchesSearch(item, query) {
 function matchesTag(item, selectedTag) {
   if (selectedTag === "all") return true;
 
-  const tags = item.dataset.tags.split(" ");
+  const tags = (item.dataset.tags || "")
+    .split(/\s+/)
+    .map((tag) => tag.trim().toLowerCase())
+    .filter((tag) => tag.length > 0);
+
   return tags.includes(selectedTag.toLowerCase());
 }
 
