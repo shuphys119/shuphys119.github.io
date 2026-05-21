@@ -61,6 +61,20 @@
   color: #666;
 }
 
+.paper-compact-item {
+  margin: 0.55rem 0;
+  line-height: 1.55;
+}
+
+.paper-date {
+  color: #666;
+  white-space: nowrap;
+}
+
+.paper-authors {
+  color: inherit;
+}
+
 .paper-table {
   width: 100%;
   border-collapse: collapse;
@@ -84,38 +98,6 @@
 
 .selected-paper-title:hover {
   color: #cc7700;
-}
-
-.paper-compact-item {
-  margin: 0.5rem 0;
-  line-height: 1.5;
-}
-
-.paper-card-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 1rem;
-}
-
-.paper-card {
-  border: 1px solid #ddd;
-  border-radius: 0.75rem;
-  padding: 1rem;
-}
-
-.paper-card h2 {
-  font-size: 1.05rem;
-  margin-top: 0.25rem;
-}
-
-.paper-card-date,
-.paper-card-authors {
-  font-size: 0.9rem;
-  color: #666;
-}
-
-.paper-card-tags {
-  margin: 0.5rem 0;
 }
 
 code {

@@ -6,12 +6,11 @@ const countElement = document.getElementById("paper-count");
 const viewButtons = document.querySelectorAll(".view-button");
 
 const views = {
-  table: document.getElementById("table-view"),
   compact: document.getElementById("compact-view"),
-  card: document.getElementById("card-view"),
+  table: document.getElementById("table-view"),
 };
 
-let currentView = "table";
+let currentView = "compact";
 
 function getItemsInCurrentView() {
   return views[currentView].querySelectorAll(".paper-item");

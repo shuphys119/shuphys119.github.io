@@ -35,15 +35,36 @@ permalink: /arxiv/
   </label>
 
   <div class="paper-view-buttons" aria-label="View switcher">
-    <button type="button" class="view-button active" data-view="table" title="Table view">▦</button>
-    <button type="button" class="view-button" data-view="compact" title="Compact view">☰</button>
-    <button type="button" class="view-button" data-view="card" title="Card view">▣</button>
+    <button type="button" class="view-button active" data-view="compact" title="Compact view">☰</button>
+    <button type="button" class="view-button" data-view="table" title="Table view">▦</button>
   </div>
 </div>
 
 <div id="paper-count" class="paper-count"></div>
 
-<div id="table-view" class="paper-view">
+<div id="compact-view" class="paper-view">
+  {% for paper in site.data.papers %}
+  <p
+    class="paper-item paper-compact-item"
+    data-title="{{ paper.title | downcase | escape }}"
+    data-authors="{{ paper.authors | downcase | escape }}"
+    data-tags="{{ paper.tags | join: ' ' | downcase | escape }}"
+    data-hook="{{ paper.hook | downcase | escape }}"
+    data-selected="{% if paper.selected == true %}true{% else %}false{% endif %}"
+  >
+    <span class="paper-date">{{ paper.date }}</span>
+    —
+    <a
+      href="{{ paper.url }}"
+      class="paper-title{% if paper.selected == true %} selected-paper-title{% endif %}"
+    >{{ paper.title }}</a>
+    —
+    <span class="paper-authors">{{ paper.authors }}</span>
+  </p>
+  {% endfor %}
+</div>
+
+<div id="table-view" class="paper-view" style="display:none;">
   <table class="paper-table">
     <thead>
       <tr>
@@ -69,9 +90,7 @@ permalink: /arxiv/
           <a
             href="{{ paper.url }}"
             class="paper-title{% if paper.selected == true %} selected-paper-title{% endif %}"
-          >
-            {% if paper.selected == true %}★ {% endif %}{{ paper.title }}
-          </a>
+          >{{ paper.title }}</a>
         </td>
         <td>{{ paper.authors }}</td>
         <td>
@@ -87,74 +106,6 @@ permalink: /arxiv/
       {% endfor %}
     </tbody>
   </table>
-</div>
-
-<div id="compact-view" class="paper-view" style="display:none;">
-  {% for paper in site.data.papers %}
-  <p
-    class="paper-item paper-compact-item"
-    data-title="{{ paper.title | downcase | escape }}"
-    data-authors="{{ paper.authors | downcase | escape }}"
-    data-tags="{{ paper.tags | join: ' ' | downcase | escape }}"
-    data-hook="{{ paper.hook | downcase | escape }}"
-    data-selected="{% if paper.selected == true %}true{% else %}false{% endif %}"
-  >
-    <span class="paper-date">{{ paper.date }}</span>
-    —
-    <a
-      href="{{ paper.url }}"
-      class="paper-title{% if paper.selected == true %} selected-paper-title{% endif %}"
-    >
-      {% if paper.selected == true %}★ {% endif %}{{ paper.title }}
-    </a>
-    —
-    <span>{{ paper.authors }}</span>
-    —
-    {% for tag in paper.tags %}
-      {% assign clean_tag = tag | strip %}
-      {% unless clean_tag == "" %}
-      <code>{{ clean_tag }}</code>
-      {% endunless %}
-    {% endfor %}
-    —
-    <span>{{ paper.hook }}</span>
-  </p>
-  {% endfor %}
-</div>
-
-<div id="card-view" class="paper-view" style="display:none;">
-  <div class="paper-card-grid">
-    {% for paper in site.data.papers %}
-    <article
-      class="paper-item paper-card"
-      data-title="{{ paper.title | downcase | escape }}"
-      data-authors="{{ paper.authors | downcase | escape }}"
-      data-tags="{{ paper.tags | join: ' ' | downcase | escape }}"
-      data-hook="{{ paper.hook | downcase | escape }}"
-      data-selected="{% if paper.selected == true %}true{% else %}false{% endif %}"
-    >
-      <div class="paper-card-date">{{ paper.date }}</div>
-      <h2>
-        <a
-          href="{{ paper.url }}"
-          class="paper-title{% if paper.selected == true %} selected-paper-title{% endif %}"
-        >
-          {% if paper.selected == true %}★ {% endif %}{{ paper.title }}
-        </a>
-      </h2>
-      <div class="paper-card-authors">{{ paper.authors }}</div>
-      <div class="paper-card-tags">
-        {% for tag in paper.tags %}
-          {% assign clean_tag = tag | strip %}
-          {% unless clean_tag == "" %}
-          <code>{{ clean_tag }}</code>
-          {% endunless %}
-        {% endfor %}
-      </div>
-      <p>{{ paper.hook }}</p>
-    </article>
-    {% endfor %}
-  </div>
 </div>
 
 </div>
