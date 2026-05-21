@@ -110,4 +110,4 @@ permalink: /arxiv/
 
 </div>
 
-<script src="{{ '/pages/arxiv/papers.js' | relative_url }}"></script>
+<script src="{{ '/pages/arxiv/papers.js?v=2' | relative_url }}"></script>
