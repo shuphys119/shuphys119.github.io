@@ -1,3 +1,7 @@
+.arxiv-page {
+  color: inherit;
+}
+
 .paper-toolbar {
   display: flex;
   flex-wrap: wrap;
@@ -15,6 +19,15 @@
 #paper-tag-select {
   padding: 0.45rem 0.6rem;
   font-size: 0.95rem;
+}
+
+.selected-filter {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+  white-space: nowrap;
 }
 
 .paper-view-buttons {
@@ -52,6 +65,19 @@
   padding: 0.5rem;
   border-bottom: 1px solid #ddd;
   vertical-align: top;
+}
+
+.paper-title {
+  font-weight: 500;
+}
+
+.selected-paper-title {
+  color: #ff9900;
+  font-weight: 700;
+}
+
+.selected-paper-title:hover {
+  color: #cc7700;
 }
 
 .paper-compact-item {

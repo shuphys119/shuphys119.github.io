@@ -1,5 +1,6 @@
 const searchInput = document.getElementById("paper-search-input");
 const tagSelect = document.getElementById("paper-tag-select");
+const selectedOnlyCheckbox = document.getElementById("selected-only-checkbox");
 const countElement = document.getElementById("paper-count");
 
 const viewButtons = document.querySelectorAll(".view-button");
@@ -36,15 +37,25 @@ function matchesTag(item, selectedTag) {
   return tags.includes(selectedTag.toLowerCase());
 }
 
+function matchesSelectedOnly(item, selectedOnly) {
+  if (!selectedOnly) return true;
+  return item.dataset.selected === "true";
+}
+
 function applyFilters() {
   const query = searchInput.value.trim().toLowerCase();
   const selectedTag = tagSelect.value.toLowerCase();
+  const selectedOnly = selectedOnlyCheckbox.checked;
 
   let visibleCount = 0;
   const currentItems = getItemsInCurrentView();
 
   currentItems.forEach((item) => {
-    const visible = matchesSearch(item, query) && matchesTag(item, selectedTag);
+    const visible =
+      matchesSearch(item, query) &&
+      matchesTag(item, selectedTag) &&
+      matchesSelectedOnly(item, selectedOnly);
+
     item.style.display = visible ? "" : "none";
 
     if (visible) {
@@ -71,6 +82,7 @@ function switchView(nextView) {
 
 searchInput.addEventListener("input", applyFilters);
 tagSelect.addEventListener("change", applyFilters);
+selectedOnlyCheckbox.addEventListener("change", applyFilters);
 
 viewButtons.forEach((button) => {
   button.addEventListener("click", () => {

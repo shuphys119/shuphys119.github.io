@@ -6,6 +6,8 @@ permalink: /arxiv/
 
 <link rel="stylesheet" href="{{ '/pages/arxiv/papers.css' | relative_url }}">
 
+<div class="arxiv-page">
+
 # arXiv reading list
 
 <div class="paper-toolbar">
@@ -23,6 +25,11 @@ permalink: /arxiv/
     <option value="{{ tag }}">{{ tag }}</option>
     {% endfor %}
   </select>
+
+  <label class="selected-filter">
+    <input id="selected-only-checkbox" type="checkbox" />
+    selected only
+  </label>
 
   <div class="paper-view-buttons" aria-label="View switcher">
     <button type="button" class="view-button active" data-view="table" title="Table view">▦</button>
@@ -52,9 +59,17 @@ permalink: /arxiv/
         data-authors="{{ paper.authors | downcase | escape }}"
         data-tags="{{ paper.tags | join: ' ' | downcase | escape }}"
         data-hook="{{ paper.hook | downcase | escape }}"
+        data-selected="{% if paper.selected %}true{% else %}false{% endif %}"
       >
         <td>{{ paper.date }}</td>
-        <td><a href="{{ paper.url }}">{{ paper.title }}</a></td>
+        <td>
+          <a
+            href="{{ paper.url }}"
+            class="paper-title{% if paper.selected %} selected-paper-title{% endif %}"
+          >
+            {% if paper.selected %}★ {% endif %}{{ paper.title }}
+          </a>
+        </td>
         <td>{{ paper.authors }}</td>
         <td>
           {% for tag in paper.tags %}
@@ -76,10 +91,16 @@ permalink: /arxiv/
     data-authors="{{ paper.authors | downcase | escape }}"
     data-tags="{{ paper.tags | join: ' ' | downcase | escape }}"
     data-hook="{{ paper.hook | downcase | escape }}"
+    data-selected="{% if paper.selected %}true{% else %}false{% endif %}"
   >
     <span class="paper-date">{{ paper.date }}</span>
     —
-    <a href="{{ paper.url }}">{{ paper.title }}</a>
+    <a
+      href="{{ paper.url }}"
+      class="paper-title{% if paper.selected %} selected-paper-title{% endif %}"
+    >
+      {% if paper.selected %}★ {% endif %}{{ paper.title }}
+    </a>
     —
     <span>{{ paper.authors }}</span>
     —
@@ -101,9 +122,17 @@ permalink: /arxiv/
       data-authors="{{ paper.authors | downcase | escape }}"
       data-tags="{{ paper.tags | join: ' ' | downcase | escape }}"
       data-hook="{{ paper.hook | downcase | escape }}"
+      data-selected="{% if paper.selected %}true{% else %}false{% endif %}"
     >
       <div class="paper-card-date">{{ paper.date }}</div>
-      <h2><a href="{{ paper.url }}">{{ paper.title }}</a></h2>
+      <h2>
+        <a
+          href="{{ paper.url }}"
+          class="paper-title{% if paper.selected %} selected-paper-title{% endif %}"
+        >
+          {% if paper.selected %}★ {% endif %}{{ paper.title }}
+        </a>
+      </h2>
       <div class="paper-card-authors">{{ paper.authors }}</div>
       <div class="paper-card-tags">
         {% for tag in paper.tags %}
@@ -114,6 +143,8 @@ permalink: /arxiv/
     </article>
     {% endfor %}
   </div>
+</div>
+
 </div>
 
 <script src="{{ '/pages/arxiv/papers.js' | relative_url }}"></script>
