@@ -1,0 +1,17 @@
+- date: 2026-05-21
+  title: "Entanglement structure of quantum many-body states"
+  authors: "A. Author, B. Author"
+  tags:
+    - entanglement
+    - tensor-network
+  url: "https://arxiv.org/abs/xxxx.xxxxx"
+  hook: "Useful for thinking about entanglement diagnostics in many-body systems."
+
+- date: 2026-05-21
+  title: "A new approach to holographic tensor networks"
+  authors: "D. Author, E. Author"
+  tags:
+    - holography
+    - tensor-network
+  url: "https://arxiv.org/abs/yyyy.yyyyy"
+  hook: "May clarify the geometric meaning of tensor-network constructions."
