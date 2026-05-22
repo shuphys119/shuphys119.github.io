@@ -1,3 +1,63 @@
+- date: 2026-05-19
+  title: "Non-invertible Symmetries in Weyl Fermions, and Applications to Fermion-Boundary Scattering Problem"
+  authors: "Pengcheng Wei, Yunqin Zheng"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+  hook: ""
+  url: "https://arxiv.org/abs/2605.19363"
+  selected: false
+
+- date: 2026-05-20
+  title: "Closed String Field Theory in 25.99 Dimensions"
+  authors: "Amr Ahmadain, Alexander Frenkel, Xi Yin"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+  hook: ""
+  url: "https://arxiv.org/abs/2605.20324"
+  selected: false
+
+- date: 2026-05-20
+  title: "Textured phase diagrams of featureless insulators"
+  authors: "Sashank Singam, Nick G. Jones, Abhishodh Prakash"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+  hook: ""
+  url: "https://arxiv.org/abs/2605.20339"
+  selected: false
+
+- date: 2026-05-20
+  title: "Entangling Power: A Probe of Symmetry and Integrability in Quantum Many-Body Systems"
+  authors: "Ian Low, Pallab Goswami"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+  hook: ""
+  url: "https://arxiv.org/abs/2605.20661"
+  selected: false
+
+- date: 2026-05-20
+  title: "Fusion of Integrable Defects and the Defect $g$-Function"
+  authors: "Yang He, Yunfeng Jiang, Yuxiao Liu"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+  hook: ""
+  url: "https://arxiv.org/abs/2605.20688"
+  selected: false
+
 - date: 2026-05-21
   title: "Universal fusion category symmetries on tensor products of infinite-dimensional Hilbert spaces"
   authors: "Ian Bunner, Corey Jones"
@@ -6,27 +66,54 @@
     - tensor-network
     - CFT
     - category theory
-  url: "https://arxiv.org/abs/xxxx.xxxxx"
+  url: "https://arxiv.org/abs/2605.21327v1"
   hook: "Useful for thinking about entanglement diagnostics in many-body systems."
   selected: true
 
 - date: 2026-05-22
-  title: "A new approach to holographic tensor networks"
-  authors: "A. Author, B. Author"
+  title: "Ising surface defects can get dirty"
+  authors: "António Antunes, Apratim Kaviraj, Baishali Roy"
   tags:
-    - holography
-    - tensor-network
-  url: "https://arxiv.org/abs/yyyy.yyyyy"
-  hook: "May clarify the geometric meaning of tensor-network constructions."
+    # - entanglement
+    # - tensor-network
+    - CFT
+    # - category theory
+  url: "https://arxiv.org/abs/2605.22628"
+  hook: ""
   selected: false
 
-- date: 2026-05-23
-  title: "A new approach to holographic tensor networks"
-  authors: "A. Author, B. Author"
+- date: 2026-05-22
+  title: "Long-range nonstabilizerness of topologically encoded states from mutual information"
+  authors: "David Aram Korbany, Tyler D. Ellison, David T. Stephen, Lorenzo Piroli"
   tags:
-    - holography
-    - tensor-network
-    - CFT
-  url: "https://arxiv.org/abs/yyyy.yyyyy"
-  hook: "May clarify the geometric meaning of tensor-network constructions."
+    - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+  url: "https://arxiv.org/abs/2605.22424"
+  hook: "long-range nonstabilizernessを測る上でmutual informationを用いたという論文．non-abelianの場合では十分ではないらしい．multi-entropyではどうか．"
+  selected: false
+
+- date: 2026-05-22
+  title: "Universalities of Defects in Quantum Field Theories"
+  authors: "Siwei Zhong"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+  hook: "thesis"
+  url: "https://arxiv.org/abs/2605.21755"
+  selected: false
+
+- date: 2026-05-22
+  title: "Algebraic locality and non-invertible Gauss laws"
+  authors: "Nicholas Holfester, Jonathan Sorce"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    - category theory
+  hook: ""
+  url: "https://arxiv.org/abs/2605.21591"
   selected: false
