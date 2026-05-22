@@ -6,14 +6,23 @@ const countElement = document.getElementById("paper-count");
 const viewButtons = document.querySelectorAll(".view-button");
 
 const views = {
-  compact: document.getElementById("compact-view"),
-  table: document.getElementById("table-view"),
+  "date-title-authors": document.getElementById("date-title-authors-view"),
+  "title-authors": document.getElementById("title-authors-view"),
+  database: document.getElementById("database-view"),
 };
 
-let currentView = "compact";
+let currentView = views["date-title-authors"]
+  ? "date-title-authors"
+  : "database";
+
+function getCurrentViewElement() {
+  return views[currentView];
+}
 
 function getItemsInCurrentView() {
-  return views[currentView].querySelectorAll(".paper-item");
+  const currentViewElement = getCurrentViewElement();
+  if (!currentViewElement) return [];
+  return currentViewElement.querySelectorAll(".paper-item");
 }
 
 function matchesSearch(item, query) {
@@ -46,9 +55,9 @@ function matchesSelectedOnly(item, selectedOnly) {
 }
 
 function applyFilters() {
-  const query = searchInput.value.trim().toLowerCase();
-  const selectedTag = tagSelect.value.toLowerCase();
-  const selectedOnly = selectedOnlyCheckbox.checked;
+  const query = searchInput ? searchInput.value.trim().toLowerCase() : "";
+  const selectedTag = tagSelect ? tagSelect.value.toLowerCase() : "all";
+  const selectedOnly = selectedOnlyCheckbox ? selectedOnlyCheckbox.checked : false;
 
   let visibleCount = 0;
   const currentItems = getItemsInCurrentView();
@@ -66,13 +75,16 @@ function applyFilters() {
     }
   });
 
-  countElement.textContent = `${visibleCount} paper${visibleCount === 1 ? "" : "s"}`;
+  if (countElement) {
+    countElement.textContent = `${visibleCount} paper${visibleCount === 1 ? "" : "s"}`;
+  }
 }
 
 function switchView(nextView) {
   currentView = nextView;
 
   Object.entries(views).forEach(([name, element]) => {
+    if (!element) return;
     element.style.display = name === currentView ? "" : "none";
   });
 
@@ -83,9 +95,17 @@ function switchView(nextView) {
   applyFilters();
 }
 
-searchInput.addEventListener("input", applyFilters);
-tagSelect.addEventListener("change", applyFilters);
-selectedOnlyCheckbox.addEventListener("change", applyFilters);
+if (searchInput) {
+  searchInput.addEventListener("input", applyFilters);
+}
+
+if (tagSelect) {
+  tagSelect.addEventListener("change", applyFilters);
+}
+
+if (selectedOnlyCheckbox) {
+  selectedOnlyCheckbox.addEventListener("change", applyFilters);
+}
 
 viewButtons.forEach((button) => {
   button.addEventListener("click", () => {
