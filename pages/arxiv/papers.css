@@ -66,10 +66,14 @@
   color: #666;
 }
 
-.paper-compact-item,
-.paper-title-authors-item {
+.paper-compact-item {
   margin: 0.55rem 0;
   line-height: 1.55;
+}
+
+.paper-title-authors-item {
+  margin: 0;
+  line-height: 1.35;
 }
 
 .paper-date {
