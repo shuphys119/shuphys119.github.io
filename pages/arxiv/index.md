@@ -10,10 +10,6 @@ permalink: /arxiv/
 
 <h1>arXiv reading list</h1>
 
-<p class="database-link">
-  <a href="{{ '/arxiv/database/' | relative_url }}">Open full database</a>
-</p>
-
 <div class="paper-toolbar">
   <input
     id="paper-search-input"
