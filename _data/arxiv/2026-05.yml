@@ -5,7 +5,7 @@
     # - entanglement
     # - tensor-network
     # - CFT
-    # - category theory
+    # - category
   hook: ""
   url: "https://arxiv.org/abs/2605.19363"
   selected: false
@@ -17,7 +17,7 @@
     # - entanglement
     # - tensor-network
     # - CFT
-    # - category theory
+    # - category
   hook: ""
   url: "https://arxiv.org/abs/2605.20324"
   selected: false
@@ -29,7 +29,7 @@
     # - entanglement
     # - tensor-network
     # - CFT
-    # - category theory
+    # - category
   hook: ""
   url: "https://arxiv.org/abs/2605.20339"
   selected: false
@@ -41,7 +41,7 @@
     # - entanglement
     # - tensor-network
     # - CFT
-    # - category theory
+    # - category
   hook: ""
   url: "https://arxiv.org/abs/2605.20661"
   selected: false
@@ -53,7 +53,7 @@
     # - entanglement
     # - tensor-network
     # - CFT
-    # - category theory
+    # - category
   hook: ""
   url: "https://arxiv.org/abs/2605.20688"
   selected: false
@@ -65,7 +65,7 @@
     - entanglement
     - tensor-network
     - CFT
-    - category theory
+    - category
   url: "https://arxiv.org/abs/2605.21327v1"
   hook: ""
   selected: true
@@ -77,7 +77,7 @@
     # - entanglement
     # - tensor-network
     - CFT
-    # - category theory
+    # - category
   url: "https://arxiv.org/abs/2605.22628"
   hook: ""
   selected: false
@@ -89,7 +89,7 @@
     - entanglement
     # - tensor-network
     # - CFT
-    # - category theory
+    # - category
   url: "https://arxiv.org/abs/2605.22424"
   hook: "long-range nonstabilizernessを測る上でmutual informationを用いたという論文．non-abelianの場合では十分ではないらしい．multi-entropyではどうか．"
   selected: false
@@ -101,7 +101,7 @@
     # - entanglement
     # - tensor-network
     # - CFT
-    # - category theory
+    # - category
   hook: "thesis"
   url: "https://arxiv.org/abs/2605.21755"
   selected: false
@@ -113,7 +113,7 @@
     # - entanglement
     # - tensor-network
     # - CFT
-    - category theory
+    - category
   hook: ""
   url: "https://arxiv.org/abs/2605.21591"
   selected: false
