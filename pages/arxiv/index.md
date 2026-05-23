@@ -10,6 +10,10 @@ permalink: /arxiv/
 
 <h1>arXiv reading list</h1>
 
+<p class="database-link">
+  <a href="{{ '/arxiv/database/' | relative_url }}">Open full database</a>
+</p>
+
 <div class="paper-toolbar">
   <input
     id="paper-search-input"
@@ -17,16 +21,6 @@ permalink: /arxiv/
     placeholder="Search title, author, tag, hook..."
     aria-label="Search papers"
   />
-
-  <select id="paper-tag-select" aria-label="Filter by tag">
-    <option value="all">all tags</option>
-    {% for tag in site.data.arxiv_tags %}
-      {% assign clean_tag = tag | strip %}
-      {% unless clean_tag == "" %}
-      <option value="{{ clean_tag }}">{{ clean_tag }}</option>
-      {% endunless %}
-    {% endfor %}
-  </select>
 
   <label class="selected-filter">
     <input id="selected-only-checkbox" type="checkbox" />
@@ -36,6 +30,38 @@ permalink: /arxiv/
   <div class="paper-view-buttons" aria-label="View switcher">
     <button type="button" class="view-button active" data-view="date-title-authors" title="Date, title, authors">☰</button>
     <button type="button" class="view-button" data-view="title-authors" title="Title, authors">≡</button>
+  </div>
+
+  <div class="tag-filter">
+    <div class="tag-mode">
+      <span class="tag-mode-label">tags:</span>
+
+      <label>
+        <input type="radio" name="tag-mode" value="or" checked />
+        OR
+      </label>
+
+      <label>
+        <input type="radio" name="tag-mode" value="and" />
+        AND
+      </label>
+    </div>
+
+    <div class="tag-checkboxes">
+      {% for tag in site.data.arxiv_tags %}
+        {% assign clean_tag = tag | strip %}
+        {% unless clean_tag == "" %}
+        <label class="tag-checkbox">
+          <input
+            type="checkbox"
+            class="tag-filter-checkbox"
+            value="{{ clean_tag | downcase | escape }}"
+          />
+          <span>{{ clean_tag }}</span>
+        </label>
+        {% endunless %}
+      {% endfor %}
+    </div>
   </div>
 </div>
 
@@ -52,7 +78,7 @@ permalink: /arxiv/
       class="paper-item paper-compact-item"
       data-title="{{ paper.title | downcase | escape }}"
       data-authors="{{ paper.authors | downcase | escape }}"
-      data-tags="{{ paper.tags | join: ' ' | downcase | escape }}"
+      data-tags="{% for tag in paper.tags %}{{ tag | strip | downcase | escape }}||{% endfor %}"
       data-hook="{{ paper.hook | downcase | escape }}"
       data-selected="{% if paper.selected == true %}true{% else %}false{% endif %}"
     >
@@ -80,7 +106,7 @@ permalink: /arxiv/
       class="paper-item paper-title-authors-item"
       data-title="{{ paper.title | downcase | escape }}"
       data-authors="{{ paper.authors | downcase | escape }}"
-      data-tags="{{ paper.tags | join: ' ' | downcase | escape }}"
+      data-tags="{% for tag in paper.tags %}{{ tag | strip | downcase | escape }}||{% endfor %}"
       data-hook="{{ paper.hook | downcase | escape }}"
       data-selected="{% if paper.selected == true %}true{% else %}false{% endif %}"
     >
@@ -97,4 +123,4 @@ permalink: /arxiv/
 
 </div>
 
-<script src="{{ '/pages/arxiv/papers.js?v=8' | relative_url }}"></script>
+<script src="{{ '/pages/arxiv/papers.js?v=9' | relative_url }}"></script>

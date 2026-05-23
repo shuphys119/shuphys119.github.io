@@ -1,7 +1,9 @@
 const searchInput = document.getElementById("paper-search-input");
-const tagSelect = document.getElementById("paper-tag-select");
 const selectedOnlyCheckbox = document.getElementById("selected-only-checkbox");
 const countElement = document.getElementById("paper-count");
+
+const tagCheckboxes = document.querySelectorAll(".tag-filter-checkbox");
+const tagModeRadios = document.querySelectorAll('input[name="tag-mode"]');
 
 const viewButtons = document.querySelectorAll(".view-button");
 
@@ -21,12 +23,30 @@ function getCurrentViewElement() {
 
 function getItemsInCurrentView() {
   const currentViewElement = getCurrentViewElement();
-  if (!currentViewElement) return [];
+
+  if (!currentViewElement) {
+    return [];
+  }
+
   return currentViewElement.querySelectorAll(".paper-item");
 }
 
+function getSelectedTags() {
+  return Array.from(tagCheckboxes)
+    .filter((checkbox) => checkbox.checked)
+    .map((checkbox) => checkbox.value.trim().toLowerCase())
+    .filter((tag) => tag.length > 0);
+}
+
+function getTagMode() {
+  const checkedMode = Array.from(tagModeRadios).find((radio) => radio.checked);
+  return checkedMode ? checkedMode.value : "or";
+}
+
 function matchesSearch(item, query) {
-  if (!query) return true;
+  if (!query) {
+    return true;
+  }
 
   const searchableText = [
     item.dataset.title || "",
@@ -38,25 +58,39 @@ function matchesSearch(item, query) {
   return searchableText.includes(query);
 }
 
-function matchesTag(item, selectedTag) {
-  if (selectedTag === "all") return true;
-
-  const tags = (item.dataset.tags || "")
-    .split(/\s+/)
+function getItemTags(item) {
+  return (item.dataset.tags || "")
+    .split("||")
     .map((tag) => tag.trim().toLowerCase())
     .filter((tag) => tag.length > 0);
+}
 
-  return tags.includes(selectedTag.toLowerCase());
+function matchesTags(item, selectedTags, tagMode) {
+  if (selectedTags.length === 0) {
+    return true;
+  }
+
+  const itemTags = getItemTags(item);
+
+  if (tagMode === "and") {
+    return selectedTags.every((tag) => itemTags.includes(tag));
+  }
+
+  return selectedTags.some((tag) => itemTags.includes(tag));
 }
 
 function matchesSelectedOnly(item, selectedOnly) {
-  if (!selectedOnly) return true;
+  if (!selectedOnly) {
+    return true;
+  }
+
   return item.dataset.selected === "true";
 }
 
 function applyFilters() {
   const query = searchInput ? searchInput.value.trim().toLowerCase() : "";
-  const selectedTag = tagSelect ? tagSelect.value.toLowerCase() : "all";
+  const selectedTags = getSelectedTags();
+  const tagMode = getTagMode();
   const selectedOnly = selectedOnlyCheckbox ? selectedOnlyCheckbox.checked : false;
 
   let visibleCount = 0;
@@ -65,7 +99,7 @@ function applyFilters() {
   currentItems.forEach((item) => {
     const visible =
       matchesSearch(item, query) &&
-      matchesTag(item, selectedTag) &&
+      matchesTags(item, selectedTags, tagMode) &&
       matchesSelectedOnly(item, selectedOnly);
 
     item.style.display = visible ? "" : "none";
@@ -84,7 +118,10 @@ function switchView(nextView) {
   currentView = nextView;
 
   Object.entries(views).forEach(([name, element]) => {
-    if (!element) return;
+    if (!element) {
+      return;
+    }
+
     element.style.display = name === currentView ? "" : "none";
   });
 
@@ -99,13 +136,17 @@ if (searchInput) {
   searchInput.addEventListener("input", applyFilters);
 }
 
-if (tagSelect) {
-  tagSelect.addEventListener("change", applyFilters);
-}
-
 if (selectedOnlyCheckbox) {
   selectedOnlyCheckbox.addEventListener("change", applyFilters);
 }
+
+tagCheckboxes.forEach((checkbox) => {
+  checkbox.addEventListener("change", applyFilters);
+});
+
+tagModeRadios.forEach((radio) => {
+  radio.addEventListener("change", applyFilters);
+});
 
 viewButtons.forEach((button) => {
   button.addEventListener("click", () => {

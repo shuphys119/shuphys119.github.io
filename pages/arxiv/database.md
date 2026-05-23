@@ -22,20 +22,42 @@ permalink: /arxiv/database/
     aria-label="Search papers"
   />
 
-  <select id="paper-tag-select" aria-label="Filter by tag">
-    <option value="all">all tags</option>
-    {% for tag in site.data.arxiv_tags %}
-      {% assign clean_tag = tag | strip %}
-      {% unless clean_tag == "" %}
-      <option value="{{ clean_tag }}">{{ clean_tag }}</option>
-      {% endunless %}
-    {% endfor %}
-  </select>
-
   <label class="selected-filter">
     <input id="selected-only-checkbox" type="checkbox" />
     selected only
   </label>
+
+  <div class="tag-filter">
+    <div class="tag-mode">
+      <span class="tag-mode-label">tags:</span>
+
+      <label>
+        <input type="radio" name="tag-mode" value="or" checked />
+        OR
+      </label>
+
+      <label>
+        <input type="radio" name="tag-mode" value="and" />
+        AND
+      </label>
+    </div>
+
+    <div class="tag-checkboxes">
+      {% for tag in site.data.arxiv_tags %}
+        {% assign clean_tag = tag | strip %}
+        {% unless clean_tag == "" %}
+        <label class="tag-checkbox">
+          <input
+            type="checkbox"
+            class="tag-filter-checkbox"
+            value="{{ clean_tag | downcase | escape }}"
+          />
+          <span>{{ clean_tag }}</span>
+        </label>
+        {% endunless %}
+      {% endfor %}
+    </div>
+  </div>
 </div>
 
 <div id="paper-count" class="paper-count"></div>
@@ -62,7 +84,7 @@ permalink: /arxiv/database/
           class="paper-item"
           data-title="{{ paper.title | downcase | escape }}"
           data-authors="{{ paper.authors | downcase | escape }}"
-          data-tags="{{ paper.tags | join: ' ' | downcase | escape }}"
+          data-tags="{% for tag in paper.tags %}{{ tag | strip | downcase | escape }}||{% endfor %}"
           data-hook="{{ paper.hook | downcase | escape }}"
           data-selected="{% if paper.selected == true %}true{% else %}false{% endif %}"
         >
@@ -92,4 +114,4 @@ permalink: /arxiv/database/
 
 </div>
 
-<script src="{{ '/pages/arxiv/papers.js?v=8' | relative_url }}"></script>
+<script src="{{ '/pages/arxiv/papers.js?v=9' | relative_url }}"></script>
