@@ -62,9 +62,9 @@
   title: "Universal fusion category symmetries on tensor products of infinite-dimensional Hilbert spaces"
   authors: "Ian Bunner, Corey Jones"
   tags:
-    - entanglement
-    - tensor-network
-    - CFT
+    # - entanglement
+    # - tensor-network
+    # - CFT
     - category
   url: "https://arxiv.org/abs/2605.21327v1"
   hook: ""
