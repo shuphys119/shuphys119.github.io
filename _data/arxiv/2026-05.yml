@@ -117,3 +117,54 @@
   hook: ""
   url: "https://arxiv.org/abs/2605.21591"
   selected: false
+
+- date: 2026-05-25
+  title: "Disorder-Induced Phase Transitions in Altermagnetic Josephson Junctions"
+  authors: "Chang-An Li"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+  hook: ""
+  url: "https://arxiv.org/abs/2605.23607"
+  selected: false
+
+- date: 2026-05-25
+  title: "Twirled Perfect Tensor Networks: Computationally covariant holographic tensor networks"
+  authors: "Gurbir Arora, Matthew Headrick, Albion Lawrence, Martin Sasieta, Brian Swingle, Connor Wolfe"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    - holography
+  hook: ""
+  url: "https://arxiv.org/abs/2605.23670"
+  selected: false
+
+- date: 2026-05-25
+  title: "Interaction-Split Edge Spectral Flow and Neutral Triplet Boundary Modes in a C = 2 Hubbard Pump"
+  authors: "Yong-Feng Yang, Zhao-Rui Tian, Chen Cheng, Hong-Gang Luo"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    - pump
+  hook: "interactionのある系におけるThouless pump"
+  url: "https://arxiv.org/abs/2605.23769"
+  selected: false
+
+- date: 2026-05-25
+  title: "A new Ising/tricritical-Ising interface: From ${W}_3$ symmetry to Rydberg atoms"
+  authors: "António Antunes, Junchen Rong"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    - interface
+  hook: ""
+  url: "https://arxiv.org/abs/2605.23848"
+  selected: false
