@@ -6,6 +6,9 @@
     # - tensor-network
     # - CFT
     # - category
+    # - pump
+    # - interface
+    # - SFT
   hook: ""
   url: "https://arxiv.org/abs/2605.19363"
   selected: false
@@ -18,6 +21,9 @@
     # - tensor-network
     # - CFT
     # - category
+    # - pump
+    # - interface
+    - SFT
   hook: ""
   url: "https://arxiv.org/abs/2605.20324"
   selected: false
@@ -30,6 +36,9 @@
     # - tensor-network
     # - CFT
     # - category
+    - pump
+    # - interface
+    # - SFT
   hook: ""
   url: "https://arxiv.org/abs/2605.20339"
   selected: false
@@ -38,10 +47,13 @@
   title: "Entangling Power: A Probe of Symmetry and Integrability in Quantum Many-Body Systems"
   authors: "Ian Low, Pallab Goswami"
   tags:
-    # - entanglement
+    - entanglement
     # - tensor-network
     # - CFT
     # - category
+    # - pump
+    # - interface
+    # - SFT
   hook: ""
   url: "https://arxiv.org/abs/2605.20661"
   selected: false
@@ -54,6 +66,9 @@
     # - tensor-network
     # - CFT
     # - category
+    # - pump
+    - interface
+    # - SFT
   hook: ""
   url: "https://arxiv.org/abs/2605.20688"
   selected: false
@@ -66,6 +81,9 @@
     # - tensor-network
     # - CFT
     - category
+    # - pump
+    # - interface
+    # - SFT
   url: "https://arxiv.org/abs/2605.21327v1"
   hook: ""
   selected: true
@@ -78,6 +96,9 @@
     # - tensor-network
     - CFT
     # - category
+    # - pump
+    - interface
+    # - SFT
   url: "https://arxiv.org/abs/2605.22628"
   hook: ""
   selected: false
@@ -90,6 +111,9 @@
     # - tensor-network
     # - CFT
     # - category
+    # - pump
+    # - interface
+    # - SFT
   url: "https://arxiv.org/abs/2605.22424"
   hook: "long-range nonstabilizernessを測る上でmutual informationを用いたという論文．non-abelianの場合では十分ではないらしい．multi-entropyではどうか．"
   selected: false
@@ -100,8 +124,11 @@
   tags:
     # - entanglement
     # - tensor-network
-    # - CFT
+    - CFT
     # - category
+    # - pump
+    - interface
+    # - SFT
   hook: "thesis"
   url: "https://arxiv.org/abs/2605.21755"
   selected: false
@@ -114,6 +141,9 @@
     # - tensor-network
     # - CFT
     - category
+    # - pump
+    # - interface
+    # - SFT
   hook: ""
   url: "https://arxiv.org/abs/2605.21591"
   selected: false
@@ -126,6 +156,9 @@
     # - tensor-network
     # - CFT
     # - category theory
+    # - pump
+    - interface
+    # - SFT
   hook: ""
   url: "https://arxiv.org/abs/2605.23607"
   selected: false
@@ -139,6 +172,9 @@
     # - CFT
     # - category theory
     - holography
+    # - pump
+    # - interface
+    # - SFT
   hook: ""
   url: "https://arxiv.org/abs/2605.23670"
   selected: false
@@ -152,6 +188,8 @@
     # - CFT
     # - category theory
     - pump
+    # - interface
+    # - SFT
   hook: "interactionのある系におけるThouless pump"
   url: "https://arxiv.org/abs/2605.23769"
   selected: false
@@ -164,7 +202,9 @@
     # - tensor-network
     # - CFT
     # - category theory
+    # - pump
     - interface
+    # - SFT
   hook: ""
   url: "https://arxiv.org/abs/2605.23848"
   selected: false
