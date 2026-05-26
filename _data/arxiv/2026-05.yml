@@ -208,3 +208,78 @@
   hook: ""
   url: "https://arxiv.org/abs/2605.23848"
   selected: false
+
+- date: 2026-05-22
+  title: "Universal classification of continuous phase transitions with two order parameters"
+  authors: "Yilun Xu, Feng-xiao Sun"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2605.24061"
+  selected: false
+
+- date: 2026-05-22
+  title: "Anderson Localization: A Floquet operator Krylov space perspective"
+  authors: "Hsiu-Chung Yeh, Aditi Mitra"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2605.24115"
+  selected: false
+
+- date: 2026-05-24
+  title: "Defect Conformal Manifolds along RG Domain Walls between $\\mathbb Z_N$-Parafermions and Minimal Models"
+  authors: "Jin-Rui Zhang, Jing-Hao Jin, Ting-Kai Chen, Jin Chen"
+  tags:
+    # - entanglement
+    # - tensor-network
+    - CFT
+    # - category theory
+    # - pump
+    - interface
+    # - SFT
+  hook: "parafermionとminimal CFTの間にcontinuous family of conformal defectsが存在するという論文．"
+  url: "https://arxiv.org/abs/2605.24978"
+  selected: true
+
+- date: 2026-05-24
+  title: "Dissipative preparation of injective tensor network states"
+  authors: "Drishti Baruah, Georgios Styliaris, J. Ignacio Cirac, Rahul Trivedi"
+  tags:
+    # - entanglement
+    - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2605.25089"
+  selected: false
+
+- date: 2026-05-24
+  title: "Extracting Universal Entanglement Scaling from Mixed Fermionic Gaussian States via Entanglement Projected Entropy"
+  authors: "Jia-Wen Tao, Hui-Ke Jin"
+  tags:
+    - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2605.25102"
+  selected: false
