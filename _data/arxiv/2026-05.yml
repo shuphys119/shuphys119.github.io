@@ -283,3 +283,108 @@
   hook: ""
   url: "https://arxiv.org/abs/2605.25102"
   selected: false
+
+- date: 2026-05-27
+  title: "Exact strong zero modes are generic in integrable spin systems with large anisotropy"
+  authors: "Sascha Gehrmann"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2605.26205"
+  selected: false
+
+- date: 2026-05-27
+  title: "Mapping twist fields to local operators via tensor networks"
+  authors: "Andrea Bulgarelli, Marco Panero, Paolo Stornati, Luca Tagliacozzo"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2605.26208"
+  selected: false
+
+- date: 2026-05-27
+  title: "Entanglement Pattern Transition of Quantum States from Directed Percolation"
+  authors: "Julian Boesl, Frank Pollmann, Michael Knap"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2605.26219"
+  selected: false
+
+- date: 2026-05-27
+  title: "$S$-duality, boundary states, and higher-form symmetries on ALE spaces"
+  authors: "Mohamed M. Anber"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2605.26224"
+  selected: false
+
+- date: 2026-05-27
+  title: "Krylov Complexity in Periodically Driven CFTs and Critical Fermions"
+  authors: "Ankit Gill, Anurag Sarkar"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2605.26250"
+  selected: false
+
+- date: 2026-05-27
+  title: "Algebras of order parameters in one-dimensional spin systems"
+  authors: "Ameya Chavda, Clement Delcamp, Alex Turzillo, Minyoung You"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: "string oreder parameter"
+  url: "https://arxiv.org/abs/2605.27193"
+  selected: false
+
+- date: 2026-05-27
+  title: "Thermal conformal partial waves from flat-space and defect CFT"
+  authors: "K.B. Alkalaev, Semyon Mandrygin, Vladimir Samsonov"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2605.27256"
+  selected: false
