@@ -9,6 +9,7 @@
     # - pump
     # - interface
     # - SFT
+    # - mixed-state
   hook: ""
   url: "https://arxiv.org/abs/2605.19363"
   selected: false
@@ -39,6 +40,7 @@
     - pump
     # - interface
     # - SFT
+    # - mixed-state
   hook: ""
   url: "https://arxiv.org/abs/2605.20339"
   selected: false
@@ -54,6 +56,7 @@
     # - pump
     # - interface
     # - SFT
+    # - mixed-state
   hook: ""
   url: "https://arxiv.org/abs/2605.20661"
   selected: false
@@ -69,6 +72,7 @@
     # - pump
     - interface
     # - SFT
+    # - mixed-state
   hook: ""
   url: "https://arxiv.org/abs/2605.20688"
   selected: false
@@ -84,6 +88,7 @@
     # - pump
     # - interface
     # - SFT
+    # - mixed-state
   url: "https://arxiv.org/abs/2605.21327v1"
   hook: ""
   selected: true
@@ -99,6 +104,7 @@
     # - pump
     - interface
     # - SFT
+    # - mixed-state
   url: "https://arxiv.org/abs/2605.22628"
   hook: ""
   selected: false
@@ -114,6 +120,7 @@
     # - pump
     # - interface
     # - SFT
+    # - mixed-state
   url: "https://arxiv.org/abs/2605.22424"
   hook: "long-range nonstabilizernessを測る上でmutual informationを用いたという論文．non-abelianの場合では十分ではないらしい．multi-entropyではどうか．"
   selected: false
@@ -129,6 +136,7 @@
     # - pump
     - interface
     # - SFT
+    # - mixed-state
   hook: "thesis"
   url: "https://arxiv.org/abs/2605.21755"
   selected: false
@@ -144,6 +152,7 @@
     # - pump
     # - interface
     # - SFT
+    # - mixed-state
   hook: ""
   url: "https://arxiv.org/abs/2605.21591"
   selected: false
@@ -159,6 +168,7 @@
     # - pump
     - interface
     # - SFT
+    # - mixed-state
   hook: ""
   url: "https://arxiv.org/abs/2605.23607"
   selected: false
@@ -175,6 +185,7 @@
     # - pump
     # - interface
     # - SFT
+    # - mixed-state
   hook: ""
   url: "https://arxiv.org/abs/2605.23670"
   selected: false
@@ -190,6 +201,7 @@
     - pump
     # - interface
     # - SFT
+    # - mixed-state
   hook: "interactionのある系におけるThouless pump"
   url: "https://arxiv.org/abs/2605.23769"
   selected: false
@@ -205,6 +217,7 @@
     # - pump
     - interface
     # - SFT
+    # - mixed-state
   hook: ""
   url: "https://arxiv.org/abs/2605.23848"
   selected: false
@@ -220,6 +233,7 @@
     # - pump
     # - interface
     # - SFT
+    # - mixed-state
   hook: ""
   url: "https://arxiv.org/abs/2605.24061"
   selected: false
@@ -235,6 +249,7 @@
     - pump
     # - interface
     # - SFT
+    # - mixed-state
   hook: ""
   url: "https://arxiv.org/abs/2605.24115"
   selected: false
@@ -250,6 +265,7 @@
     # - pump
     - interface
     # - SFT
+    # - mixed-state
   hook: "parafermionとminimal CFTの間にcontinuous family of conformal defectsが存在するという論文．"
   url: "https://arxiv.org/abs/2605.24978"
   selected: true
@@ -265,6 +281,7 @@
     # - pump
     # - interface
     # - SFT
+    # - mixed-state
   hook: ""
   url: "https://arxiv.org/abs/2605.25089"
   selected: false
@@ -280,6 +297,7 @@
     # - pump
     # - interface
     # - SFT
+    # - mixed-state
   hook: ""
   url: "https://arxiv.org/abs/2605.25102"
   selected: false
@@ -295,6 +313,7 @@
     # - pump
     # - interface
     # - SFT
+    # - mixed-state
   hook: ""
   url: "https://arxiv.org/abs/2605.26205"
   selected: false
@@ -310,6 +329,7 @@
     # - pump
     # - interface
     # - SFT
+    # - mixed-state
   hook: ""
   url: "https://arxiv.org/abs/2605.26208"
   selected: false
@@ -325,6 +345,7 @@
     # - pump
     # - interface
     # - SFT
+    # - mixed-state
   hook: ""
   url: "https://arxiv.org/abs/2605.26219"
   selected: false
@@ -340,6 +361,7 @@
     # - pump
     # - interface
     # - SFT
+    # - mixed-state
   hook: ""
   url: "https://arxiv.org/abs/2605.26224"
   selected: false
@@ -355,6 +377,7 @@
     # - pump
     # - interface
     # - SFT
+    # - mixed-state
   hook: ""
   url: "https://arxiv.org/abs/2605.26250"
   selected: false
@@ -370,6 +393,7 @@
     # - pump
     # - interface
     # - SFT
+    # - mixed-state
   hook: "string oreder parameter"
   url: "https://arxiv.org/abs/2605.27193"
   selected: false
@@ -385,6 +409,167 @@
     # - pump
     # - interface
     # - SFT
+    # - mixed-state
   hook: ""
   url: "https://arxiv.org/abs/2605.27256"
+  selected: false
+
+- date: 2026-05-28
+  title: "Emergence of an antiferromagnetic topological Anderson insulator in the interacting Haldane model"
+  authors: "Alejandro J. Uría-Álvarez, Roser Valentí"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+    # - mixed-state
+  hook: ""
+  url: "https://arxiv.org/abs/2605.27524"
+  selected: false
+
+- date: 2026-05-28
+  title: "Spontaneous breaking of non-invertible symmetries and duality to beyond-Landau transitions"
+  authors: "Xie Chen, Shang Liu, Da-chuan Lu, Nathanan Tantivasadakarn"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    - category theory
+    # - pump
+    # - interface
+    # - SFT
+    # - mixed-state
+  hook: ""
+  url: "https://arxiv.org/abs/2605.27672"
+  selected: false
+
+- date: 2026-05-28
+  title: "Revisiting boundary electromagnetic duality and edge modes"
+  authors: "Keito Shimizu, Sotaro Sugishita"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+    # - mixed-state
+  hook: ""
+  url: "https://arxiv.org/abs/2605.27870"
+  selected: false
+
+- date: 2026-05-28
+  title: "Geometry near rank-changing points on the mixed-state manifold: Bures metric, conical singularities, and Lindblad dynamics"
+  authors: "Yu-Huan Huang, Xu-Yang Hou, Guo Hao, Chih-Chun Chien"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+    - mixed-state
+  hook: ""
+  url: "https://arxiv.org/abs/2605.27907"
+  selected: false
+
+- date: 2026-05-28
+  title: "Quantum Spin Squeezing Enhanced by Critical Exceptional Points"
+  authors: "Yuma Nakanishi"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+    # - mixed-state
+  hook: ""
+  url: "https://arxiv.org/abs/2605.28126"
+  selected: false
+
+- date: 2026-05-28
+  title: "More about modular symmetries and non-invertible properties in magnetized compactifications"
+  authors: "Tatsuo Kobayashi, Shuhei Miyamoto, Riku Nakano, Ryusei Nishida, Haruki Uchida"
+  tags:
+    # - entanglement
+    # - tensor-network
+    - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+    # - mixed-state
+  hook: ""
+  url: "https://arxiv.org/abs/2605.28141"
+  selected: false
+
+- date: 2026-05-28
+  title: "Hilbert Space and Defect Hilbert Spaces Associated with Categorical Symmetries"
+  authors: "Qiang Jia, Jiahua Tian"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    - category theory
+    # - pump
+    # - interface
+    # - SFT
+    # - mixed-state
+  hook: ""
+  url: "https://arxiv.org/abs/2605.28485"
+  selected: false
+
+- date: 2026-05-28
+  title: "Topological lattice gauge theory enriched by non-invertible symmetry"
+  authors: "Lea E. Bottini, Clement Delcamp, Edmund Heng, Campbell K. McLauchlan, Dominic J. Williamson"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    - category theory
+    # - pump
+    # - interface
+    # - SFT
+    # - mixed-state
+  hook: ""
+  url: "https://arxiv.org/abs/2605.28688"
+  selected: false
+
+- date: 2026-05-28
+  title: "GR from RG, $2d$ Example: JT-Gravity Induced from Renormalization Group Flow"
+  authors: "M.M. Sheikh-Jabbari, V. Taghiloo"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+    # - mixed-state
+  hook: ""
+  url: "https://arxiv.org/abs/2605.28753"
+  selected: false
+
+- date: 2026-05-28
+  title: "Non-invertible symmetry enriched string net topological orders"
+  authors: "Luisa Eck, Peter Huston, Kyle Kawagoe, David Penneys"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    - category theory
+    # - pump
+    # - interface
+    # - SFT
+    # - mixed-state
+  hook: ""
+  url: "https://arxiv.org/abs/2605.28794"
   selected: false
