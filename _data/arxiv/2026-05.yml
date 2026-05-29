@@ -573,3 +573,228 @@
   hook: ""
   url: "https://arxiv.org/abs/2605.28794"
   selected: false
+
+- date: 2026-05-28
+  title: "A local description of strong symmetries and strong-to-weak symmetry breaking in quantum many-body systems"
+  authors: "Ruizhi Liu, Jinmin Yi, Dominic V. Else"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2605.28925"
+  selected: false
+
+- date: 2026-05-28
+  title: "Learning quantum ground states in the space of measurement outcomes"
+  authors: "Kartiek Agarwal"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2605.28931"
+  selected: false
+
+- date: 2026-05-28
+  title: "Analytic Bootstrap for $O(N)$ Boundary Conformal Field Theories with Interacting Boundaries"
+  authors: "Xinyu Sun, Shao-Kai Jian, Hong Yao"
+  tags:
+    # - entanglement
+    # - tensor-network
+    - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2605.28933"
+  selected: false
+
+- date: 2026-05-28
+  title: "Constrained integrability and anyonic chains"
+  authors: "Matthew Blakeney, Luke Corcoran, Marius de Leeuw"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2605.28946"
+  selected: false
+
+- date: 2026-05-28
+  title: "Order-disorder trade-off in dirty quantum systems"
+  authors: "Jinmin Yi, Chong Wang"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2605.28949"
+  selected: false
+
+- date: 2026-05-28
+  title: "Local Strong-to-Weak Spontaneous Symmetry Breaking"
+  authors: "Francisco Divi, Leonardo A. Lessa, Chong Wang"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2605.28967"
+  selected: false
+
+- date: 2026-05-28
+  title: "Topological superconductivity from Abelian fractional Chern insulators"
+  authors: "Taige Wang"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2605.29034"
+  selected: false
+
+- date: 2026-05-29
+  title: "Effective Theory of Fermion Quartet Condensation"
+  authors: "Qiao-Ru Xu, Congjun Wu"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2605.29338"
+  selected: false
+
+- date: 2026-05-29
+  title: "Geometry and localization: Probing Localization Landscape Theory on the Bethe Lattice"
+  authors: "Lorenzo Tonetti, Leticia F. Cugliandolo, Marco Tarzia"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2605.29745"
+  selected: false
+
+- date: 2026-05-29
+  title: "Criticality in the disordered $N$-color Ashkin-Teller model"
+  authors: "Youssef Makoudi, Gesualdo Delfino"
+  tags:
+    # - entanglement
+    # - tensor-network
+    - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2605.29810"
+  selected: false
+
+- date: 2026-05-29
+  title: "Gate Parameter Lee-Yang Zeros and Dynamical Phases in Quantum Circuits"
+  authors: "Chang Liu, Yu Wu, Yunfeng Jiang, Yang Zhang"
+  tags:
+    # - entanglement
+    # - tensor-network
+    - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2605.29838"
+  selected: true
+
+- date: 2026-05-29
+  title: "Charged Abelian Higgs phase transitions in three-dimensional compact lattice U(1) gauge models with multicharge scalar matter"
+  authors: "Claudio Bonati, Filippo Mariani, Ettore Vicari"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2605.29884"
+  selected: false
+
+- date: 2026-05-29
+  title: "Hidden Ising models from the generalized Yang-Baxter equation"
+  authors: "Akash Sinha, Somnath Maity, Pramod Padmanabhan, Vladimir Korepin"
+  tags:
+    # - entanglement
+    # - tensor-network
+    - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2605.30007"
+  selected: false
+
+- date: 2026-05-29
+  title: "Critical exponents for planar random-cluster model with cluster-weight $q=4$"
+  authors: "Hong-Bin Chen, Hugo Duminil-Copin, Tiancheng He, François Jacopin, Dmitry Krachun, Ioan Manolescu, Jiaming Xia"
+  tags:
+    # - entanglement
+    # - tensor-network
+    - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2605.30030"
+  selected: false
+
+- date: 2026-05-29
+  title: "Self-dual holography: four-point AdS/CFT correlators in higher-spin gravity"
+  authors: "Evgeny Skvortsov, Richard Van Dongen"
+  tags:
+    # - entanglement
+    # - tensor-network
+    - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2605.30276"
+  selected: false
