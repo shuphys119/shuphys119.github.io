@@ -474,7 +474,7 @@
     # - interface
     # - SFT
     - mixed-state
-  hook: ""
+  hook: "密度行列のrankが変化する点の近傍でのquantum metricを調べている．"
   url: "https://arxiv.org/abs/2605.27907"
   selected: false
 
