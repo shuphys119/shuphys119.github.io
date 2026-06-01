@@ -59,7 +59,6 @@ This talk outlines recent progress in geometric topology for many-body systems, 
 **Location:** Room 331, RIKEN Research Main Building, Wako, Saitama, Japan    
 **Date:** December 16, 2025  
 **Type:** Seminar  
-**Language:** English  
 **Related paper:** [arXiv:2605.03891](https://arxiv.org/abs/2605.03891)    
 
 This seminar discussed parameterized families of toric code phases, focusing on higher-order anyon pumping.  
