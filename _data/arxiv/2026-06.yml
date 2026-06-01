@@ -1,0 +1,134 @@
+- date: 2026-06-01
+  title: "A Boundary--Residue Incidence Coalgebra for Associahedral Scattering Forms"
+  authors: "Ioannis P. Zois"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2605.30390"
+  selected: false
+
+- date: 2026-06-01
+  title: "Topological Phenomena Protected by Diabolical Textures"
+  authors: "Sayantan Mandal, Neelima Pulletikurty, Abhishodh Prakash"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2605.30421"
+  selected: false
+
+- date: 2026-06-01
+  title: "Non-Perturbative Renormalization Group for Ising-Nematic Criticality: A Closed-Form Nonlocal Ansatz"
+  authors: "Hyeon Jung Kim, Kyoung-Min Kim, Ki-Seok Kim"
+  tags:
+    # - entanglement
+    # - tensor-network
+    - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2605.30715"
+  selected: false
+
+- date: 2026-06-01
+  title: "Vertex Operators in Superstring Theory from Integral Forms and Descent Equations"
+  authors: "Isao Kishimoto, Shigenori Seki, Haruka Shimogaki, Tomohiko Takahashi"
+  tags:
+    # - entanglement
+    # - tensor-network
+    - CFT
+    # - category theory
+    # - pump
+    # - interface
+    - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2605.30759"
+  selected: false
+
+- date: 2026-06-01
+  title: "Using graph neural networks to predict many-body interactions in amorphous materials"
+  authors: "Mehryar Jannesari Ghomsheh, Donald L. Koch, Sarah Hormozi"
+  tags:
+    # - entanglement
+    - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2605.30822"
+  selected: false
+
+- date: 2026-06-01
+  title: "Multi-point functions of a full-plane two-state fuzzy $4$-Potts model"
+  authors: "Hong-Bin Chen, Jiaming Xia"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2605.31374"
+  selected: false
+
+- date: 2026-06-01
+  title: "Floquet Engineering of Quantum Transport through two Driven Impurities"
+  authors: "Vincenzo Bruno, Corinna Kollath, Roberta Citro, Ameneh Sheikhan"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2605.31592"
+  selected: false
+
+- date: 2026-06-01
+  title: "Twin Phases: Phase Transitions Without Hidden Symmetry Breaking"
+  authors: "Alison Warman, Yuhan Gai, Sakura Schafer-Nameki"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2605.31601"
+  selected: false
+
+- date: 2026-06-01
+  title: "Twin Algebras: Condensable Algebras beyond Anyons"
+  authors: "Yuhan Gai, Sakura Schafer-Nameki, Alison Warman"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2605.31602"
+  selected: false
