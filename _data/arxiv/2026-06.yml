@@ -132,3 +132,153 @@
   hook: ""
   url: "https://arxiv.org/abs/2605.31602"
   selected: false
+
+- date: 2026-06-01
+  title: "Phase separation seeded by Z2 and U(1) topological defects from holography"
+  authors: "Zi-Qiang Zhao, Zhang-Yu Nie, Jing-Fei Zhang, Xin Zhang"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.00163"
+  selected: false
+
+- date: 2026-06-01
+  title: "Constraints on four-party entanglement in holography"
+  authors: "Vijay Balasubramanian, William K.L. Chan, Monica Jinwoo Kang, Chitraang Murdia, Simon F. Ross"
+  tags:
+    - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.00210"
+  selected: false
+
+- date: 2026-06-01
+  title: "Symmetry-Protected Quantum Computing using Metamaterials"
+  authors: "Neil F. Johnson, Ferney J. Rodriguez, Luis Quiroga"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.00254"
+  selected: false
+
+- date: 2026-06-01
+  title: "The Uhlmann phase of Higher-Order Topological Insulators at Finite Temperature"
+  authors: "Shiyu Chen, Yan He"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.00479"
+  selected: false
+
+- date: 2026-06-01
+  title: "Massless Islands in Wedge Holography"
+  authors: "Naman Kumar"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.00488"
+  selected: false
+
+- date: 2026-06-01
+  title: "The Triple $T\\bar{T}$-Like Flow in Quantum Field Theories: Irrelevant, Marginal, and Relevant"
+  authors: "H. Babaei-Aghbolagh, Bin Chen, Song He, Jue Hou"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.00536"
+  selected: false
+
+- date: 2026-06-01
+  title: "Supersymmetric quantum criticality with discrete symmetry"
+  authors: "Teng-Yue Wang, Shuai Yin"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.00657"
+  selected: false
+
+- date: 2026-06-02
+  title: "Information Hierarchy in Many-Body Berry Phase"
+  authors: "Kai Watanabe"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.02155"
+  selected: false
+
+- date: 2026-06-02
+  title: "Spatial and particle-particle entanglement in 1D quantum walks of two distinguishable or indistinguishable bosonic particles"
+  authors: "Christopher Mastandrea, Chih-Chun Chien"
+  tags:
+    - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.02505"
+  selected: false
+
+- date: 2026-06-02
+  title: "Strong-to-Weak Spontaneous Symmetry Breaking"
+  authors: "Chong Wang"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.02555"
+  selected: false
