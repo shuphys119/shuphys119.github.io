@@ -282,3 +282,153 @@
   hook: ""
   url: "https://arxiv.org/abs/2606.02555"
   selected: false
+
+- date: 2026-06-03
+  title: "A mean-field description of strong-to-weak symmetry breaking in the monitored three-dimensional Bose-Hubbard model"
+  authors: "Yicheng Tang, Pradip Kattel, J. H. Pixley"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.02713"
+  selected: false
+
+- date: 2026-06-03
+  title: "Observation of interaction-induced fast Thouless pumping of solitons"
+  authors: "Yuqing Li, Jinxiong Jia, Yunfei Wang, Huiying Du, Zhong An, Zhenhua Qiao, Liantuan Xiao, Suotang Jia, Qian Niu, Jie Ma"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.03044"
+  selected: false
+
+- date: 2026-06-03
+  title: "Holographic reconstruction for defect CFTs from $\\mathrm{AdS}_p \\times S^q$ spacetimes"
+  authors: "Federico Faedo, Nicolò Petri, Alessia Segati"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.03106"
+  selected: false
+
+- date: 2026-06-03
+  title: "Operator spreading in random circuits with orthogonal or symplectic symmetry"
+  authors: "Zhiyang Tan, Piet W. Brouwer"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.03956"
+  selected: false
+
+- date: 2026-06-04
+  title: "Quantum error correction with the toric code"
+  authors: "Atom Computing and Collaborators"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.04079"
+  selected: false
+
+- date: 2026-06-04
+  title: "Closed string trajectories from a new \"tiling\""
+  authors: "Thomas Basile, Chrysoula Markou"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.04088"
+  selected: false
+
+- date: 2026-06-04
+  title: "Multi-entropy in random tensor networks"
+  authors: "Miao Hu, Simon Lin, Ion Nechita"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.04470"
+  selected: false
+
+- date: 2026-06-04
+  title: "Monitored chaotic scattering"
+  authors: "C.W.J. Beenakker, J. Sánchez Fernán, J. Tworzydło"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.04794"
+  selected: false
+
+- date: 2026-06-04
+  title: "Effective and Floquet Hamiltonians for High Frequency Driving and Floquet-induced Heating in Quantum Spin Chains"
+  authors: "Mayukh Bandyopadhyay, Vinod Ashokan"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.04976"
+  selected: false
+
+- date: 2026-06-04
+  title: "Floquet-Engineered Parity Anomaly Staircase in a Cold Atom Dirac Lattice"
+  authors: "Binayyak Roy, Vito Scarola, Sumanta Tewari"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.05164"
+  selected: false
