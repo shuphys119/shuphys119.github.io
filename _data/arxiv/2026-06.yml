@@ -432,3 +432,63 @@
   hook: ""
   url: "https://arxiv.org/abs/2606.05164"
   selected: false
+
+- date: 2026-06-02
+  title: "A mean-field description of strong-to-weak symmetry breaking in the monitored three-dimensional Bose-Hubbard model"
+  authors: "Yicheng Tang, Pradip Kattel, J. H. Pixley"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.02713"
+  selected: false
+
+- date: 2026-06-03
+  title: "Observation of interaction-induced fast Thouless pumping of solitons"
+  authors: "Yuqing Li, Jinxiong Jia, Yunfei Wang, Huiying Du, Zhong An, Zhenhua Qiao, Liantuan Xiao, Suotang Jia, Qian Niu, Jie Ma"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.03044"
+  selected: false
+
+- date: 2026-06-03
+  title: "Holographic reconstruction for defect CFTs from $\\mathrm{AdS}_p \\times S^q$ spacetimes"
+  authors: "Federico Faedo, Nicolò Petri, Alessia Segati"
+  tags:
+    # - entanglement
+    # - tensor-network
+    - CFT
+    # - category theory
+    # - pump
+    - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.03106"
+  selected: false
+
+- date: 2026-06-03
+  title: "Operator spreading in random circuits with orthogonal or symplectic symmetry"
+  authors: "Zhiyang Tan, Piet W. Brouwer"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.03956"
+  selected: false
