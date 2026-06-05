@@ -433,9 +433,24 @@
   url: "https://arxiv.org/abs/2606.05164"
   selected: false
 
-- date: 2026-06-02
-  title: "A mean-field description of strong-to-weak symmetry breaking in the monitored three-dimensional Bose-Hubbard model"
-  authors: "Yicheng Tang, Pradip Kattel, J. H. Pixley"
+- date: 2026-06-05
+  title: "Notes on (-2)-form symmetries"
+  authors: "Pinak Banerjee, Alonso Perez-Lona, Daniel Robbins, Subham Roy, Eric Sharpe, Xingyang Yu"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.05543"
+  selected: false
+
+- date: 2026-06-05
+  title: "On Quantum Aspects of 1-Form Symmetries I: BV-BRST Cohomology and Anomaly Polynomials"
+  authors: "Weizhen Jia, Yi-Nan Wang, Yi Zhang"
   tags:
     # - entanglement
     # - tensor-network
@@ -445,50 +460,50 @@
     # - interface
     # - SFT
   hook: ""
-  url: "https://arxiv.org/abs/2606.02713"
+  url: "https://arxiv.org/abs/2606.05656"
+  selected: true
+
+- date: 2026-06-05
+  title: "Understanding deconfined quantum critical points from crystalline categorical Landau paradigm"
+  authors: "Hiromi Ebisu, Bo Han, Weiguang Cao"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.05856"
   selected: false
 
-- date: 2026-06-03
-  title: "Observation of interaction-induced fast Thouless pumping of solitons"
-  authors: "Yuqing Li, Jinxiong Jia, Yunfei Wang, Huiying Du, Zhong An, Zhenhua Qiao, Liantuan Xiao, Suotang Jia, Qian Niu, Jie Ma"
+- date: 2026-06-05
+  title: "$E_\\infty^{1,2}$-type Lieb-Schultz-Mattis anomalies, deconfined quantum critical points, and non-invertible symmetry breaking"
+  authors: "Hao-Ran Zhang, Hanlin Lin, Shuo Yang, Qing-Rui Wang"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.06343"
+  selected: false
+
+- date: 2026-06-05
+  title: "A closed system setting for quantum thermalisation in free fermions"
+  authors: "Purvaash Panduranghan-Udhayashankar, Filiberto Ares, Pasquale Calabrese"
   tags:
     # - entanglement
     # - tensor-network
     # - CFT
     # - category theory
-    - pump
-    # - interface
-    # - SFT
-  hook: ""
-  url: "https://arxiv.org/abs/2606.03044"
-  selected: false
-
-- date: 2026-06-03
-  title: "Holographic reconstruction for defect CFTs from $\\mathrm{AdS}_p \\times S^q$ spacetimes"
-  authors: "Federico Faedo, Nicolò Petri, Alessia Segati"
-  tags:
-    # - entanglement
-    # - tensor-network
-    - CFT
-    # - category theory
-    # - pump
-    - interface
-    # - SFT
-  hook: ""
-  url: "https://arxiv.org/abs/2606.03106"
-  selected: false
-
-- date: 2026-06-03
-  title: "Operator spreading in random circuits with orthogonal or symplectic symmetry"
-  authors: "Zhiyang Tan, Piet W. Brouwer"
-  tags:
-    # - entanglement
-    # - tensor-network
-    # - CFT
-    # - category theory
     # - pump
     # - interface
     # - SFT
   hook: ""
-  url: "https://arxiv.org/abs/2606.03956"
-  selected: false
+  url: "https://arxiv.org/abs/2606.06362"
+  selected: true
