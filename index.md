@@ -13,6 +13,8 @@ In my papers, I use **"Ohyama"** instead of "Oyama".
 
 [Presentations](pages/presentations/talks.md)
 
+[Workshops](pages/presentations/workshops.md)
+
 ## Links
 
 [google scholar](https://scholar.google.co.jp/citations?user=Z-Ex2ZMAAAAJ&hl=en)  
