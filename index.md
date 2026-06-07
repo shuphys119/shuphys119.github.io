@@ -13,7 +13,7 @@ In my papers, I use **"Ohyama"** instead of "Oyama".
 
 [Presentations](pages/presentations/talks.md)
 
-[Workshops](pages/presentations/workshops.md)
+[Workshops](pages/workshops/workshops.md)
 
 ## Links
 
