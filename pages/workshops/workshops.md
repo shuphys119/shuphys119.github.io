@@ -5,7 +5,7 @@ layout: page
 
 # Workshops 
 
-This page summarizes workshops that I have organized or participated in.
+This page summarizes workshops that I have organized.
 
 ---
 
