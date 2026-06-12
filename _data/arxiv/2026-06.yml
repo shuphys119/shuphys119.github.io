@@ -643,7 +643,7 @@
   url: "https://arxiv.org/abs/2606.07510"
   selected: false
 
-  - date: 2026-06-08
+- date: 2026-06-08
   title: "Tracking metastable phases by complex Lee-Yang zeros"
   authors: "Yi-Hua Dong, Ling Liu, Fang-Cheng Wang, Qi-Jun Ye, Xin-Zheng Li"
   tags:
@@ -776,4 +776,64 @@
     # - SFT
   hook: ""
   url: "https://arxiv.org/abs/2606.09636"
+  selected: false
+
+- date: 2026-06-09
+  title: "Magic and entanglement in 1+1-dimensional SU(2) lattice gauge theory"
+  authors: "Raghav G. Jha, Goksu C. Toga, Jaber I. Taher, Bojko N. Bakalov, Alexander F. Kemper"
+  tags:
+    - entanglement
+    - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.09971"
+  selected: false
+
+- date: 2026-06-09
+  title: "Bootstrap Cone of the Multicritical Deconfined Quantum Critical Point"
+  authors: "Zhijin Li, Tinhong Shen"
+  tags:
+    # - entanglement
+    # - tensor-network
+    - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.09985"
+  selected: false
+
+- date: 2026-06-09
+  title: "Ramond from Random: Weil-Petersson Volumes for Super-Riemann surfaces with NS Boundaries and R Punctures"
+  authors: "Clifford V. Johnson"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.09990"
+  selected: false
+
+- date: 2026-06-10
+  title: "The Yang-Baxter Equation for the Chiral Potts Model and Integrable Parafermions"
+  authors: "Zhao Zhang"
+  tags:
+    # - entanglement
+    # - tensor-network
+    - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.11146"
   selected: false
