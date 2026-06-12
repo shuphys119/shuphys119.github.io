@@ -867,3 +867,138 @@
   hook: ""
   url: "https://arxiv.org/abs/2606.12132"
   selected: false
+
+- date: 2026-06-11
+  title: "Infinite-Order Lattice Chiral Anomalies and CPT"
+  authors: "Elijah Lew-Smith, Salvatore D. Pace, Shu-Heng Shao"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.12510"
+  selected: false
+
+- date: 2026-06-11
+  title: "Charting the emergent low-dimensional manifold of quantum materials"
+  authors: "Jason Z. Kim, Omri Lesser, Debanjan Chowdhury"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.12520"
+  selected: false
+
+- date: 2026-06-11
+  title: "Multi-entropy in heavy local quenches"
+  authors: "Kosei Fujiki, Kenya Tasuki"
+  tags:
+    - entanglement
+    # - tensor-network
+    - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.12526"
+  selected: false
+
+- date: 2026-06-11
+  title: "Statistical Mechanics and Symmetries of Non-Abelian Anyon Proliferation: From Deformation to Decoherence"
+  authors: "Avi Vadali, Robijn Vanhove, Ruben Verresen, Jason Alicea, Pablo Sala"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.12527"
+  selected: false
+
+- date: 2026-06-11
+  title: "Influence-solvability: a systematic theory of $(1+1)D$ solvability and its application to brickwork circuits"
+  authors: "Friedrich Hübner, Sun Woo P. Kim"
+  tags:
+    # - entanglement
+    - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.12538"
+  selected: false
+
+- date: 2026-06-11
+  title: "Toward Entanglement Bootstrap for Conformal Field Theory in Any Dimension"
+  authors: "Rolando Ramirez Camasca, Xiang Li, Ting-Chun Lin, John McGreevy"
+  tags:
+    - entanglement
+    # - tensor-network
+    - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.12540"
+  selected: false
+
+- date: 2026-06-11
+  title: "The state/defect correspondence"
+  authors: "Adrien Arbalestrier, Elise Paznokas, Stathis Vitouladitis"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.12560"
+  selected: false
+
+- date: 2026-06-11
+  title: "Scalar Quantum Fields: Theory Space and its Geometry"
+  authors: "Viola Gattus, Peter Millington"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.12580"
+  selected: false
+
+- date: 2026-06-12
+  title: "A ribbon ZX calculus for gauge theory"
+  authors: "Gabriel Wong, Razin A. Shaikh, William Donnelly"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.13551"
+  selected: false
