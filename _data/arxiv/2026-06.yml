@@ -837,3 +837,33 @@
   hook: ""
   url: "https://arxiv.org/abs/2606.11146"
   selected: false
+
+- date: 2026-06-11
+  title: "Invariants of Sequential Circuits and Generalized Non-Abelian Statistics"
+  authors: "Shintaro Sato, Yoshimasa Hidaka, Ryohei Kobayashi"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.11527"
+  selected: false
+
+- date: 2026-06-11
+  title: "From Topological Order to Mixed-State Phases: A Ground-State Probe of Fractionalized Excitations"
+  authors: "Yunlong Zang, Yu-Bin Li, Shenghan Jiang"
+  tags:
+    - entanglement
+    - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.12132"
+  selected: false
