@@ -643,4 +643,137 @@
   url: "https://arxiv.org/abs/2606.07510"
   selected: false
 
-  
+  - date: 2026-06-08
+  title: "Tracking metastable phases by complex Lee-Yang zeros"
+  authors: "Yi-Hua Dong, Ling Liu, Fang-Cheng Wang, Qi-Jun Ye, Xin-Zheng Li"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.08004"
+  selected: false
+
+- date: 2026-06-08
+  title: "Notes on noninvertible quantum symmetries in two dimensions"
+  authors: "P. Banerjee, E. Sharpe"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.08387"
+  selected: false
+
+- date: 2026-06-08
+  title: "Microscopic universal theory of symmetry-enriched topological quantum spin liquids"
+  authors: "Yingcheng Li, Liujun Zou"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.08558"
+  selected: false
+
+- date: 2026-06-08
+  title: "Hidden Conformal Boundary Data in Finite-Temperature Stabilizer Entropy"
+  authors: "Reyhaneh Khasseh, M. A. Rajabpour"
+  tags:
+    - entanglement
+    # - tensor-network
+    - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.08606"
+  selected: true
+
+- date: 2026-06-08
+  title: "Statistical Mechanics of Random Matrices"
+  authors: "Isaac Pérez Castillo"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.08706"
+  selected: false
+
+- date: 2026-06-09
+  title: "Stress Tensor Deformations in dS/CFT: Mixed Boundary Conditions, Spectrum Flow and Pseudo Entropy"
+  authors: "Feng Hao, Hao Ouyang, Xi-Yang Ran"
+  tags:
+    - entanglement
+    # - tensor-network
+    - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.09170"
+  selected: false
+
+- date: 2026-06-09
+  title: "Control transition in a temporally random classical spin chain"
+  authors: "Elisha Shmalo, J. H. Pixley, Manas Kulkarni, Sarang Gopalakrishnan, David A. Huse"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.09297"
+  selected: false
+
+- date: 2026-06-09
+  title: "Energy Transport in Randomly Coupled Quantum Systems: A Perturbative Approach"
+  authors: "Tingfei Li, Runyu Chen"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.09308"
+  selected: false
+
+- date: 2026-06-09
+  title: "The Map of Parameter Space in Double Microwave Shielding"
+  authors: "Hubert J. Jóźwiak, Ian Stevenson, Sebastian Will, Tijs Karman"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.09636"
+  selected: false
