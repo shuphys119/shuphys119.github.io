@@ -1002,3 +1002,27 @@
   hook: ""
   url: "https://arxiv.org/abs/2606.13551"
   selected: false
+
+- date: 2026-06-11
+  title: "Universal Crossovers of Stabilizer Entropy Beyond Criticality"
+  authors: "Reyhaneh Khasseh, E. A. Ramirez Trino, M. A. Rajabpour"
+  tags:
+    - entanglement
+    - quantum-information
+    - CFT
+    - spin-chain
+  hook: "Stabilizer Rényi entropy at index 1/2 is computed exactly in finite-range spin chains, revealing universal finite-size and correlation-length crossovers away from criticality."
+  url: "https://arxiv.org/abs/2606.13810"
+  selected: false
+
+- date: 2026-06-12
+  title: "Quantum Entanglement of Bethe States"
+  authors: "Yu Hao, Yunfeng Jiang, Bi-Quan Yang, De-liang Zhong"
+  tags:
+    - entanglement
+    - integrability
+    - spin-chain
+    - Bethe-ansatz
+  hook: "A systematic study of bipartite entanglement in on-shell and off-shell Bethe states for XXX spin chains and non-compact SL(2,R) chains, identifying extremal Bethe-root patterns."
+  url: "https://arxiv.org/abs/2606.14140"
+  selected: false
