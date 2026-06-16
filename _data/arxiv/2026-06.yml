@@ -1026,3 +1026,124 @@
   hook: "A systematic study of bipartite entanglement in on-shell and off-shell Bethe states for XXX spin chains and non-compact SL(2,R) chains, identifying extremal Bethe-root patterns."
   url: "https://arxiv.org/abs/2606.14140"
   selected: false
+
+
+- date: 2026-06-03
+  title: "O(N) BCFT: new data from conformal partial wave expansions"
+  authors: "Jozef Csipes, Petr Vaško"
+  tags:
+    # - entanglement
+    # - tensor-network
+    - CFT
+    # - category theory
+    # - pump
+    - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.14733"
+  selected: false
+
+- date: 2026-06-16
+  title: "Interaction-enabled topological pumping of Rydberg electrons"
+  authors: "Chenxi Huang, Tao Chen, Kaden R. A. Hazzard, Jacob P. Covey, Bryce Gadway"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.15126"
+  selected: false
+
+- date: 2026-06-16
+  title: "The Holographic Multi-Entropy Cone"
+  authors: "Xin-Xiang Ju, Yang Zhao"
+  tags:
+    - entanglement
+    # - tensor-network
+    - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.15173"
+  selected: false
+
+- date: 2026-06-16
+  title: "Topological Tricritical Ising Universality Class in One Dimension"
+  authors: "Sheng Yang, Hai-Qing Lin, Xue-Jia Yu"
+  tags:
+    # - entanglement
+    # - tensor-network
+    - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.15588"
+  selected: false
+
+- date: 2026-06-16
+  title: "Flat Gauging of Continuous (Non-invertible) Symmetries and Non-compact BF SymTFT for Compact Boson"
+  authors: "Qiang Jia, Yi Zhang"
+  tags:
+    # - entanglement
+    # - tensor-network
+    - CFT
+    - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.15732"
+  selected: false
+
+- date: 2026-06-16
+  title: "Machine Learning Topological Order from Defect Partition Functions"
+  authors: "Kazem Bitaghsir Fadafan, Wei Cui, Babak Haghighat, Shailesh Lal"
+  tags:
+    # - entanglement
+    # - tensor-network
+    - CFT
+    # - category theory
+    # - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.15799"
+  selected: false
+
+- date: 2026-06-16
+  title: "Extracting Boundary Conformal Data from Periodic Non-Hermitian Critical Chains"
+  authors: "Yifan Liu, Haruki Shimizu, Dongchang Liu, Kohei Kawabata"
+  tags:
+    # - entanglement
+    # - tensor-network
+    - CFT
+    # - category theory
+    # - pump
+    - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.16785"
+  selected: false
+
+- date: 2026-06-16
+  title: "Adiabatic realization of anomalous Floquet topological systems"
+  authors: "Luca Asteria, Marcel N. Kosch, Henrik P. Zahn, Jonathan Bracker, André Eckardt, Klaus Sengstock, Christof Weitenberg"
+  tags:
+    # - entanglement
+    # - tensor-network
+    # - CFT
+    # - category theory
+    - pump
+    # - interface
+    # - SFT
+  hook: ""
+  url: "https://arxiv.org/abs/2606.16942"
+  selected: false
