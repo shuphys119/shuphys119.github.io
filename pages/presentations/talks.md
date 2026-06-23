@@ -22,6 +22,19 @@ This is a five-day workshop on topological families of quantum states.
 
 ---
 
+#### [Emergent Phenomena in Quantum Matter: From Symmetry to Dynamics](https://indico.yukawa.kyoto-u.ac.jp/event/92/)
+
+**Event:** Emergent Phenomena in Quantum Matter: From Symmetry to Dynamics  
+**Host institution:** Yukawa Institute for Theoretical Physics, Kyoto University  
+**Location:** YITP, Kyoto University, Kyoto, Japan  
+**Date:** June 30, 2026  
+**Time:** 16:00  
+**Type:** Upcoming workshop / scheduled talk  
+**Related topics:** Emergent quantum matter, generalized symmetries, quantum dynamics  
+
+
+---
+
 #### [Generalized Cluster States and Strip 2-Algebras](https://www.ms.u-tokyo.ac.jp/~yasuyuki/komaba2025.htm)
 
 **Event:** Theoretical studies of topological phases of matter  
