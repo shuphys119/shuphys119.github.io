@@ -10,12 +10,27 @@ This page summarizes my seminars, invited talks, and conference presentations.
 
 ---
 
+#### Higher Structures on Boundary Conformal Manifolds: Higher Berry Phase and Boundary Conformal Field Theory
+
+**Event:** Condensed Matter Theory Seminar, Kobayashi group  
+**Host institution:** Department of Applied Physics, The University of Tokyo  
+**Location:** Seminar Room A/D, Engineering Building 6, The University of Tokyo, Tokyo, Japan  
+**Date:** July 23, 2026  
+**Time:** 14:00
+**Type:** Invited Seminar  
+**Related paper:** [arXiv:2507.12525](https://arxiv.org/abs/2507.12525)
+
+This seminar presented recent developments on higher Berry phases and their application to boundary conformal field theory.
+
+---
+
 #### [Topological Families 2026](https://sites.google.com/view/topological-families-2026/home)
 
 **Event:** Topological Families 2026  
 **Location:** St John's College, Oxford, United Kingdom  
-**Date:** July 13–17, 2026  
-**Type:** Upcoming workshop / scheduled talk  
+**Date:** July 16, 2026  
+**Time:** 11:00  
+**Type:** Invited talk   
 **Related topics:** Topological families of quantum states, higher Berry phases, quantum many-body systems  
 
 This is a five-day workshop on topological families of quantum states.
@@ -29,7 +44,7 @@ This is a five-day workshop on topological families of quantum states.
 **Location:** YITP, Kyoto University, Kyoto, Japan  
 **Date:** June 30, 2026  
 **Time:** 16:00  
-**Type:** Upcoming workshop / scheduled talk  
+**Type:** Contributed talk  
 **Related topics:** Emergent quantum matter, generalized symmetries, quantum dynamics  
 
 
@@ -174,4 +189,4 @@ This talk explains how to extract higher Berry phases in one-dimensional systems
 
 This seminar discussed generalized Thouless pumps and their formulation using matrix product states.
 
-_Last updated: May 2026_
+_Last updated: July 2026_
